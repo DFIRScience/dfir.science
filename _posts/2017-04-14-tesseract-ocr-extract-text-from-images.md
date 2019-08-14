@@ -53,4 +53,4 @@ This will select 'kor' (Korean) as the langauge. Unfortunately, you can only run
 
 Check out my video below for detailed instructions on running tesseract-ocr.
 
-{% include responsive-embed url="https://www.youtube.com/embed/QhJiOCwz-_I" ratio="16:9" %}
+{% include video id="QhJiOCwz-_I" provider="youtube" %}

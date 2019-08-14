@@ -18,4 +18,4 @@ Memory foreniscs in Linux is not very easy. The reason is because the Linux kern
 
 For now, we still have to make our own profiles. Please see the video below for details. We used [LiME](https://github.com/504ensicslabs/lime) for Linux memory acquisition.
 
-{% include responsive-embed url="https://www.youtube.com/embed/qoplmHxmOp4" ratio="16:9" %}
+{% include video id="qoplmHxmOp4" provider="youtube" %}

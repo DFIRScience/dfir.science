@@ -64,7 +64,7 @@ ewfinfo /Cases/001/001_2017_USB_Gold.E01
 ewfverify /Cases/001/001_2017_USB_Gold.E01
 ```
 Check out this video on creating a EWF disk image.
-{% include responsive-embed url="https://www.youtube.com/embed/4D5XZ0AK9ak" ratio="16:9" %}
+{% include video id="4D5XZ0AK9ak" provider="youtube" %}
 
 ## Mount EWF
 Next, you may want to mount the disk image to provide direct access to the copied disk. After mounting,
@@ -84,4 +84,4 @@ Now the device inside /mnt/ewf is the physical disk image - or logical disk imag
 you can access the device with any other tools.
 
 Check out this video on mounting an EWF disk image.
-{% include responsive-embed url="https://www.youtube.com/embed/3S-joLMbDGo" ratio="16:9" %}
+{% include video id="3S-joLMbDGo" provider="youtube" %}

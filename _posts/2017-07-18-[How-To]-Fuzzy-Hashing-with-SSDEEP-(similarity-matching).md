@@ -136,7 +136,7 @@ For the doc file, we see that more data is *better*. We were able to remove more
 ## Testing with Images
 I made a video about ssdeep and testing different image formats. Have a look below:
 
-{% include responsive-embed url="https://www.youtube.com/embed/xY4YggSTnD8" ratio="16:9" %}
+{% include video id="xY4YggSTnD8" provider="youtube" %}
 
 ## Conclusions
 Hopefully this gave you a better idea of fuzzy hashing, and what it can be used for. For certain situation it is extremely useful, but you definitely need to know what data-types you are working with. Uncompressed data will likely give better results.

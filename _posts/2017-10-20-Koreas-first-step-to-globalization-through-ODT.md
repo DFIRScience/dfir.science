@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 'Koreas first step to globalization through ODT'
+title: "Koreas first step to globalization through ODT"
 date: '2017-10-20T21:52:23+09:00'
 author: Joshua
 tags:

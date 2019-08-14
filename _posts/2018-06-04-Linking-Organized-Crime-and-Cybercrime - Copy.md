@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 'Linking Organized Crime and Cybercrime'
+title: "Linking Organized Crime and Cybercrime"
 date: '2018-06-04T19:45:06+09:00'
 author: Joshua
 tags:

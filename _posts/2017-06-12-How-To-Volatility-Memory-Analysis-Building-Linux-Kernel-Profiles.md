@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: '[How To] Volatility Memory Analysis Building Linux Kernel Profiles'
+title: "[How To] Volatility Memory Analysis Building Linux Kernel Profiles"
 date: '2017-06-12T11:14:50+09:00'
 author: Joshua
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 'Research 101: How to do research in digital forensics'
+title: "Research 101: How to do research in digital forensics"
 date: '2019-01-14T15:46:35+09:00'
 author: Joshua
 tags:

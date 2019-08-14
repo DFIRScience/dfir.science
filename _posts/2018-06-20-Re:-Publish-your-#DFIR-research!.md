@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 'Re: Publish your #DFIR research!'
+title: "Re: Publish your #DFIR research!"
 date: '2018-06-20T17:41:57+09:00'
 author: Joshua
 tags:

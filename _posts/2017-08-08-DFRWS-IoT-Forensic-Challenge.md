@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 'DFRWS IoT Forensic Challenge'
+title: "DFRWS IoT Forensic Challenge"
 date: '2017-08-08T07:33:05+09:00'
 author: Joshua
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 'DFIR already has Rapid Peer Review - we can do better'
+title: "DFIR already has Rapid Peer Review - we can do better"
 date: '2018-06-28T08:41:42+09:00'
 author: Joshua
 tags:

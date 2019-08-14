@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 'Horrible messaging is bad for national security'
+title: "Horrible messaging is bad for national security"
 date: '2017-07-08T12:51:47+09:00'
 author: Joshua
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 'A comment on Applebys reaction to the Paradise Papers'
+title: "A comment on Applebys reaction to the Paradise Papers"
 date: '2017-11-06T19:50:48+09:00'
 author: Joshua
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 'Using Autopsy 4 to export file metadata'
+title: "Using Autopsy 4 to export file metadata"
 date: '2017-05-04T11:26:18+09:00'
 author: Joshua
 tags:

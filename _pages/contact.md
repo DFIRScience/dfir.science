@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: single
 permalink: /contact
 title: "Contact"
 excerpt: "Contact us"

@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: single
 permalink: /research
 title: "Research"
 excerpt: "DFIRScience conducts cybercrime and digital forensic investigation research in a number of topic areas. This page is a list of our current work."

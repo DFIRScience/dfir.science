@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: single
 permalink: /projects
 title: "Projects"
 excerpt: "Projects that the DFIR.Science team is currently involved in."

@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: single
 permalink: /lectures
 title: "Lectures"
 excerpt: "A collection of talks and lectures by Joshua I. James."

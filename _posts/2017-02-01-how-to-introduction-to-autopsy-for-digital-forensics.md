@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: '[How To] Introduction to Autopsy for Digital Forensics'
+title: 'How To - Introduction to Autopsy for Digital Forensics'
 date: '2017-02-01T12:04:28+09:00'
 author: Joshua
 tags:
@@ -21,7 +21,7 @@ Autopsy is very easy to get started with. Just [download](http://sleuthkit.org/a
 
 One thing to be aware of is that Autopsy does not have the ability to create disk images. If you are using Windows you can see [this](https://DFIR.Science//2016/11/how-to-forensic-acquisition-in-windows.html) post about acquiring a digital forensic image using FTK Imager. If you are using Linux you can see [this](https://DFIR.Science//2016/10/how-to-forensic-acquisition-in-linux_31.html) post about acquiring a disk image using Guymager. If you are connecting a disk directly see this video on [hardware write blockers](https://DFIR.Science//2016/10/how-to-forensic-data-acquisition.html).
 
-You can also check out the book [Practical Forensic Imaging](http://amzn.to/2kPOZUG) by Bruce Nikkel.
+You can also check out the book [Practical Forensic Imaging](https://amzn.to/2YZqvIx) by Bruce Nikkel.
 
 Ok, so once you have a disk or disk image you would like to analyze, start up Autopsy. You will be asked to create a new case. Think about *where* you want to save your case. Try to keep cases on a dedicated hard drive. Avoid the same disk that your system file are running from. We try for complete separation, when possible. Structure also matters, which we will talk about in a later post.
 

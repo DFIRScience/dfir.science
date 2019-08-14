@@ -1,0 +1,16 @@
+---
+layout: posts
+title: "[How To] Installing LIBEWF in Ubuntu Trusty"
+date: '2014-09-12T12:51:00.000+09:00'
+author: Joshua
+tags:
+- Digital Forensics
+- dfir
+- HowTo
+modified_time: '2015-08-24T22:36:08.525+09:00'
+thumbnail: http://2.bp.blogspot.com/-bvcfUQThgeY/VBJsn22q1GI/AAAAAAAAA0s/X9c3a0kcgi8/s72-c/libewf.png
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-5232723321499605902
+blogger_orig_url: https://DFIR.Science/2014/09/how-to-installing-libewf-in-ubuntu.html
+---
+
+Installing LIBEWF is normally straightforward. Usually the most difficult part is remembering which packages are required for the dependencies. When running configure, I always like to have "support" dependencies filled out. While some of these are not necessary, you may find yourself needing them someday, and having to recompile.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-bvcfUQThgeY/VBJsn22q1GI/AAAAAAAAA0s/X9c3a0kcgi8/s1600/libewf.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-bvcfUQThgeY/VBJsn22q1GI/AAAAAAAAA0s/X9c3a0kcgi8/s1600/libewf.png" height="400" width="275" /></a></div>On a almost-brand-new install of Ubuntu Trusty (64bit), these are the required packages:<br /><br /><code>apt-get install build-essential autoconf automake libfuse-dev uuid-dev libbz2-dev zlib1g-dev</code><br /><br />Then you just download <a href="https://53efc0a7187d0baa489ee347026b8278fe4020f6.googledrive.com/host/0B3fBvzttpiiSMTdoaVExWWNsRjg/" target="_blank">LIBEWF</a>, untar, and run <code>./configure</code>. All dependencies should be filled out.<br /><br />From there it is just a simple <code>make</code> to start working with forensic file formats.

@@ -1,0 +1,16 @@
+---
+layout: posts
+title: "[Hash sets] Korea University DFRC Reference Data Set"
+date: '2014-08-07T16:00:00.000+09:00'
+author: Joshua
+tags:
+- Digital Forensics
+- Categorization
+- dfir
+modified_time: '2015-08-24T22:36:08.516+09:00'
+thumbnail: http://2.bp.blogspot.com/-b714EPfj6rU/U9nlrFNZ6QI/AAAAAAAAAz8/d5z8-g-qoQM/s72-c/new_logo.png
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-518508360035404256
+blogger_orig_url: https://DFIR.Science/2014/08/hash-sets-korea-university-dfrc.html
+---
+
+If you work in the area of digital investigation, you probably know about <a href="http://www.nsrl.nist.gov/" target="_blank">NIST's National Software Reference Library</a> (NSRL). <br /><blockquote><i>The National Software Reference Library (NSRL) is designed to collect software from various sources and incorporate file profiles computed from this software into a Reference Data Set (RDS) of information. The RDS can be used by law enforcement, government, and industry organizations to review files on a computer by matching file profiles in the RDS. This will help alleviate much of the effort involved in determining which files are important as evidence on computers or file systems that have been seized as part of criminal investigations.</i></blockquote>In other words, the NSRL is a very large collection of file hashes for 'known' software. In most cases it can be treated as a <i>known good</i>&nbsp;hash set, for filtering out potentially uninteresting files from a case.<br /><br />The NSRL hashes are also hosted on <a href="http://www.hashsets.com/nsrl/search/">hashsets.com</a>, allowing you to query their database for a particular hash if you don't want to store the files locally.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://forensic.korea.ac.kr/RDS/index.php?lang=en" target="_blank"><img border="0" src="http://2.bp.blogspot.com/-b714EPfj6rU/U9nlrFNZ6QI/AAAAAAAAAz8/d5z8-g-qoQM/s1600/new_logo.png" height="66" width="400" /></a></div><br />NSRL is very useful, but it does have some limitations. The <a href="http://forensic.korea.ac.kr/" target="_blank">Korea University Digital Forensic Research Center</a>&nbsp;is attempting to solve some of these limitations but providing the <a href="http://forensic.korea.ac.kr/RDS/index.php?lang=en" target="_blank">DFRC Reference Dataset</a>.<br /><br />Their Reference Data Set includes hash values from software used in South Korea as well as the NSRL. Currently, they have over 27 million hashes. Best of all, they provide a number of interfaces to test your data with. You can upload the suspect file directly, upload a list of hashes, search for a single sha1 or md5, or query their RDS via their REST interface! This way you can call their hash database directly from your tools.<br /><br />Of course, you can also <a href="http://forensic.korea.ac.kr/RDS/download_v2.php?lang=en" target="_blank">directly download</a> their entire RDS.<br /><br /><br />

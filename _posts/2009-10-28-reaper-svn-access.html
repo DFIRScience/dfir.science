@@ -1,0 +1,15 @@
+---
+layout: posts
+title: REAPER SVN Access
+date: '2009-10-28T07:45:00.000+09:00'
+author: Joshua
+tags:
+- REAPER
+- REAPERPreview
+- HowTo
+modified_time: '2015-08-24T22:35:19.082+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-1398251428134444894
+blogger_orig_url: https://DFIR.Science/2009/10/reaper-svn-access.html
+---
+
+Instructions for using SVN to get the newest version of the REAPER Project:<br /><br />These instructions are for SVN from a Linux command line, and specifically Debian.<br /><br />The REAPER forensics project hosted at SourceForge is split in to 5 projects. Do not download the the entire SVN tree unless you want the development version of everything included.<br /><br />To download the entire SVN:<br /><br /><code>svn co https://reaperforensics.svn.sourceforge.net/svnroot/reaperforensics reaperforensics</code><br /><br />To download a particular project from the SVN:<br /><br /><code>svn co https://reaperforensics.svn.sourceforge.net/svnroot/reaperforensics/%project_name% %project_name% </code><br /><code><br /></code><br />Where %project_name% is the particular one you want:<br /><ul><li>REAPERlive</li><li>REAPERliveDesktop</li><li>REAPERlivePreview</li><li>REAPERview</li><li>Scripts</li></ul>Explanation of command:<br /><ul><li>svn - the program to access the svn repository</li><li>co - "checkout" project</li><li>https://reaperforensics.svn.sourceforge.net/svnroot/reaperforensics - the address of the project (this is the trunk of the project)</li><li>reaperforensics - this is the local directory to download the project to</li></ul>

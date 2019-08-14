@@ -1,0 +1,15 @@
+---
+layout: posts
+title: Open Source Tools Accepted in Court
+date: '2015-12-14T12:01:00.001+09:00'
+author: Joshua
+tags:
+- Digital Forensics
+- Discussion
+modified_time: '2015-12-14T12:01:10.314+09:00'
+thumbnail: http://3.bp.blogspot.com/-K3Tbrj_9a3k/T90LcPZXP1I/AAAAAAAAAjc/_M6P4x6x-X4/s72-c/REAPERlogo.png
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-7336208031746615039
+blogger_orig_url: https://DFIR.Science/2015/12/open-source-tools-accepted-in-court.html
+---
+
+Reply to an email I received:<div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-K3Tbrj_9a3k/T90LcPZXP1I/AAAAAAAAAjc/_M6P4x6x-X4/s1600/REAPERlogo.png" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img border="0" height="200" src="http://3.bp.blogspot.com/-K3Tbrj_9a3k/T90LcPZXP1I/AAAAAAAAAjc/_M6P4x6x-X4/s200/REAPERlogo.png" width="171" /></a></div><div><br /><div><br /><div><div>Is it possible to use Linux live CDs (or open source software) without trouble in court?</div><div><br /></div><div>The answer is yes, certainly.</div><div><br /></div><div>First, there is precedent in North America and Europe. See this, relatively old article from Italy [<a href="http://nannibassetti.com/digitalforensicsreport2007.pdf">http://nannibassetti.com/digitalforensicsreport2007.pdf</a>].</div><div><br /></div><div>For a full discussion about open source tools in court, I highly recommend the following paper: <a href="http://www.digital-evidence.org/papers/opensrc_legal.pdf">http://www.digital-evidence.org/papers/opensrc_legal.pdf</a></div><div><br /></div><div>Very basically, to have evidence obtained using open source tools / Linux live CDs accepted in court, you need to prove that the tools give 'correct' results and do not modify potential evidence. Check local court rules for any additional standards that need to be met. If you need any help with tool testing, please contact me.</div><div><br /></div><div>For example, if your courts already accept EnCase and you want to compare acquisition and hashing, you can do the following:</div><div>1) acquire the data with EnCase and create a hash of the data</div><div>2) acquire the data with an open source tool and create a hash of the data</div><div>3) compare the hashes of the suspect data (should be the same)</div><div>4) repeat with 5+ different exhibits to show that the same result is always found</div><div><br /></div><div>If your courts accept EnCase, and you can demonstrate that an open source tool produces the same result, then the open source tool must also be accepted.</div><div><br /></div><div>A procedure for tool testing should be created in your unit, if it does not already exist.</div><div><br /></div><div>You might also be interested in the Open Source Digital Forensics Conference in the U.S.: <a href="http://www.osdfcon.org/">http://www.osdfcon.org/</a></div><div><br /></div><div>Please let me know if you need any help with testing, or if you have any further questions.</div></div></div></div>

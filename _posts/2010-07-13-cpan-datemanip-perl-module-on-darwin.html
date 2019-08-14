@@ -1,0 +1,13 @@
+---
+layout: posts
+title: cpan Date::Manip perl module on Darwin (not Darwin ports)
+date: '2010-07-13T20:03:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.200+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-5101746328758045705
+blogger_orig_url: https://DFIR.Science/2010/07/cpan-datemanip-perl-module-on-darwin.html
+---
+
+When attempting to install the Date::Manip perl module via cpan on Darwin it will probably give an error like:<br /><blockquote><br />make: *** [test_dynamic] Error 255<br />/usr/bin/make test -- NOT OK<br />Running make install<br />make test had returned bad status, won't install without force</blockquote><br /><br />You are not really given much information, but if you attempt to build from source you will see a few dependencies are missing:<br /><strong>Test::Pod::Coverage</strong> and <strong>Test::Inter</strong><br /><br />Install these first via cpan:<br /><code><br />cpan&gt; install Test::Pod::Coverage<br />cpan&gt; install Test::Inter</code><br /><br />After that the cpan install of Date::Manip still did not work for me, but installing from source seemed to.<br />Download the Date::Manip source (make sure you have developer tools installed to build from source)<br /><a href="http://search.cpan.org/~sbeck/Date-Manip-6.11/lib/Date/Manip.pod">http://search.cpan.org/~sbeck/Date-Manip-6.11/lib/Date/Manip.pod</a><br /><br />Building this module is a bit weird. Unpack it, and move into the directory. Then run the following to build and install:<br /><code><br />perl Build.PL<br />./Build test<br />sudo ./Build install</code><br /><br /><br />source: <a href="http://faq.perl.org/perlfaq8.html#How_do_I_install_a_m">http://faq.perl.org/perlfaq8.html#How_do_I_install_a_m</a>

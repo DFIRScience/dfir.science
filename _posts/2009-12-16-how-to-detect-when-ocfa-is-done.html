@@ -1,0 +1,13 @@
+---
+layout: posts
+title: How to detect when OCFA is done processing
+date: '2009-12-16T18:10:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.069+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-1018044498717527006
+blogger_orig_url: https://DFIR.Science/2009/12/how-to-detect-when-ocfa-is-done.html
+---
+
+As emailed to be by Jochen:<br /><br />I think it is possible to detect completion of the process, even if it is not that simple, due to the distributed nature of OCFA. To detect completion, you have to look at three to four places in OCFA:<br /><br />First, in the database the location field of the metadatainfo table contains the phrase '[being processed]' for all items being processed. SELECT count(*) FROM metadatainfo WHERE location = '[being processed]'; should return zero on completion.<br /><br />Second, in the case a non-zero returns from previous query, you also have to check the persistent queues for messages pending. If the only messages pending are messages staying in the "never"-queue, the washing process is finished except for the evidence handled by the crashed modules. Further inspection of that evidence is necessary.<br /><br />Third, in the case a non-zero returns from the query, but all persistent message queues are empty, it could be that a background process is filling the working directory before further processing can take place. This could be checked by inspecting the overall size of the separate working directories: "du -ms /var/ocfa//work/default/*"<br /><br />A last step could be the inspection of "top -u ocfa"  to check for module activity.<br /><br />I hope this will help,<br /><br />With kind regards,<br />Jochen

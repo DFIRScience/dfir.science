@@ -1,0 +1,13 @@
+---
+layout: posts
+title: SIMILE Timeplot graphing hours minutes seconds
+date: '2010-07-21T21:55:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.268+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-6087405174786087752
+blogger_orig_url: https://DFIR.Science/2010/07/simile-timeplot-graphing-hours-minutes.html
+---
+
+All of the examples for SIMILE Timeplot are in YYYY/MM/DD format. I was wanting to plot data down to the minute/second. Looking around I found that the date format of the data (.txt) file should be ISO8601. I tried, but still had problems parsing the time part. Thanks to <a href="http://blogs.sun.com/vipul/resource/SolarSPOT2/similetimeplot.html">this blog</a> I saw two problems I was having. First, the time format should be: YYYY-MM-DD HH:MM:SS. So a [time,data] file would look like [2009-02-12 15:10:00,23.407]<br /><br />Next is with the index.html that loads the plot data. Look for the line<br /><br /><code>timeplot1.loadText(dataURL, " ", eventSource);</code><br /><br />What I did not immediately recognize was that the " " bit is actually a field separator. So for comma separated values that line should be:<br /><br /><code>timeplot1.loadText(dataURL, <strong>","</strong>, eventSource);</code><br /><br />Once done everything worked as expected. SIMILE Timeplot and Timeline are great tools. Hope this saves you some research time.<br /><a href="http://www.simile-widgets.org/timeplot/">http://www.simile-widgets.org/timeplot/</a>

@@ -1,0 +1,16 @@
+---
+layout: posts
+title: Indicators of Anti-Forensics
+date: '2014-04-10T16:12:00.001+09:00'
+author: Joshua
+tags:
+- Digital Forensics
+- dfir
+- Projects
+- anti-forensics
+modified_time: '2015-08-24T22:36:08.565+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-7700831816659994794
+blogger_orig_url: https://DFIR.Science/2014/04/indicators-of-anti-forensics.html
+---
+
+<b>Project:</b> Indicators of Anti-Forensics (IoAF)<br /><b>Purpose:</b> Digital forensic triage for anti-forensic activities<br /><b>Status:</b> <span style="color: lime;"><b>Active</b></span><br /><b>License:</b> <a href="https://www.gnu.org/copyleft/gpl.html" target="_blank">GNU GPLv3</a><br /><b>Developer(s):</b> KITRI's Best of the Best Information Security Program<br /><br /><b>More information:</b><br />The 'Indicators of Anti-Forensics' (IoAF) project is an effort towards automated anti-forensic trace detection using signature-based methods. Each "version" represents the work of different KITRI Best of the Best groups to advance the idea. <br /><br />The main IoAF program uses parsing modules to extract file meta-data and Registry key information from a system under investigation. Pre-defined signatures are stored in a SQLite database that is queried for each extracted object. <br /><br />Signatures are created by using either real-time or snapshot based analysis on a similar system. Objects that are consistently updated by the action of interest are extracted, and further tested (e.g. how the object is updated). If the object is found to consistently correspond to the action of interest - and only the action of interest - it is included as a trace in the signature. <br /><br />The purpose of the project so far is not to automatically reconstruct activities, but to quickly detect the presence of anti-forensic traces to let investigators know whether they should pay more interest to this device over others (digital forensic triage). <br /><br /><b>Related Publications:</b><br /><br /><ul><li><span style="text-indent: -32px;">James, J. I., Kim, M. S., Choi, J., Lee, S. S., &amp; Kim, E. (2014). A General Approach to Anti-Forensic Activity Detection.&nbsp;</span><i style="text-indent: -32px;">eForensics Magazine</i><span style="text-indent: -32px;">, vol.3(5). 30–35. [<a href="https://eforensicsmag.com/anti-forensics-techniques-detection-and-countermeasures-preorder/" style="-webkit-transition: color 0.3s; color: #009eb8; display: inline; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; outline: none; text-decoration: none; transition: color 0.3s;" target="_blank">Link</a>]</span></li></ul><br /><b>Links: </b><br /><br /><ul><li>Github Repository: <a href="https://github.com/hvva/IoAF">https://github.com/hvva/IoAF</a></li></ul>

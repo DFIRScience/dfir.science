@@ -1,0 +1,13 @@
+---
+layout: posts
+title: Read-Only Loopback to Physical Disk
+date: '2009-10-19T23:01:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.212+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-5263698716810477831
+blogger_orig_url: https://DFIR.Science/2009/10/read-only-loopback-to-physical-disk.html
+---
+
+I have been testing file carving to try to preview the contents of a drive before imaging. File carving takes a long, long time. A faster solution (I think) is to mount the drive and search. Now for forensics mounting a drive is a big no no, but sometimes it is just needed. Especially if you want a 15 minute preview instead of a 2 day 'preview'.<br /><br />I work a lot with Debian Live, so the commands and how they work will pertain to Debian. Test everything (and tell me results)! Don't take my word for it.<br /><br />For mounting a drive under Linux you have the standard 'mount' command. When mounting you can specify the -o ro option, which theoretically puts you in a safe read-only state... or does it? Does it always work? Does it stop everything?<br /><br />Another option that I recently found was the 'blockdev' command. You can specify that the blockdev is ro even before mounting. <br /><blockquote>blockdev --report<br />blockdev --setro /dev/device</blockquote><br />But my professor brought up the point - these probably depend on the driver used. Maybe a driver for ntfs totally ignores the ro switch? I don't totally agree that blockdev would be based on the driver, but how do you test whether the drive actually is in ro without writing? What if it fails?<br /><br />Then the saving grace - loopback devices. Mount the partition as a file. You don't need to worry about drivers, support, etc.<br />To do this use losetup to create a loopback device:<br /><blockquote>losetup -r /dev/loop1 /dev/hda1</blockquote>This creates a read-only loopback device pointing to /dev/hda1<br />Then you can mount the loopback device (read-only if you are paranoid)<br /><blockquote>mount -o ro /dev/loop1 /media/test</blockquote>This mounts the loopback device loop1 at /media/test. You can then traverse the directory of /dev/hda1 just like it was mounted.

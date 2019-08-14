@@ -1,0 +1,13 @@
+---
+layout: posts
+title: REAPERlive Change Log - 7 Jan 2010
+date: '2010-01-08T06:11:00.000+09:00'
+author: Joshua
+tags:
+- REAPER
+modified_time: '2012-06-17T07:01:14.741+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-1071422099112063969
+blogger_orig_url: https://DFIR.Science/2010/01/reaperlive-change-log-7-jan-2010.html
+---
+
+Change Log - 7 Jan 2010<br /><br />REAPERlive<br />Major Revision<br />-Remove need for 2 drives.<br />-Temp remove OCFA processing. <br />-Add Ability to partition REAPERlive storage drive automatically on first run.<br /><br />REAPERcontrol.sh v0.4 - 7/1/2010<br />-commented 2 drive serial numbers no serials required<br />-commented OCFA db password<br />-commented scripts running after REAPER_image<br />-added REAPER_partition.sh to first script to run<br />-checks same disk for created reaper partitions<br />-commented REAPERsys check<br />-changed REAPERevi partition to REAPERstore<br />-added color and pause to case name info (important info)<br /><br />REAPER_detectDrive v0.4 - 7/1/2010<br />-commented "detect Drives" function - no longer needed<br />-changed detectREAPER to detect_forensic_disk<br />-added separate detect_suspect_disk function<br /><br />REAPER_partition v0.1 - 7/1/2010<br />-automatically partitions REAPER USB drive with 1G SWAP and ext3 if partitions are not already created.<br />-REAPER_partition moved to first run position in REAPERcontrol<br /><br />To Do:<br />REAPER_setENV needs updated to support the new single-drive structure.<br />REAPER_image must be checked for outdated code.<br />REAPER_cleanup needs to be re-implemented.

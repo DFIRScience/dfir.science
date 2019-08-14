@@ -1,0 +1,15 @@
+---
+layout: posts
+title: John the Ripper shared library error path fix on Linux
+date: '2015-02-12T16:45:00.001+09:00'
+author: Joshua
+tags:
+- Linux
+- HowTo
+modified_time: '2015-08-24T22:35:19.401+09:00'
+thumbnail: http://2.bp.blogspot.com/-WGf9KhJiN40/U9TiU7AzjFI/AAAAAAAAAzg/Zj_86E69MxE/s72-c/jtr.png
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-876547639360620427
+blogger_orig_url: https://DFIR.Science/2015/02/john-ripper-shared-library-error-path.html
+---
+
+If you are using John the Ripper with CUDA, and you start to see errors like:<br /><blockquote class="tr_bq">./unshadow: error while loading shared libraries: libcudart.so.6.5: cannot open shared object file: No such file or directory</blockquote><div>First, check your paths. An example .bashrc might look like (64bit system):</div><div><code><br /></code><code>export CUDA_HOME=/usr/local/cuda<br />export LD_LIBRARY_PATH=${CUDA_HOME}/lib64:$LD_LIBRARY_PATH<br />PATH=${CUDA_HOME}/bin:${PATH}<br />export PATH<br /></code><br /><div><br />If you are still getting the shared library error, then check /etc/ld.so.conf.<br />Add the path to your cuda library: /usr/local/cuda/lib64<br />Then run <code>sudo ldconfig</code></div><br />Now try running unshadow again, and the problem should be fixed.<br /><br /><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-WGf9KhJiN40/U9TiU7AzjFI/AAAAAAAAAzg/Zj_86E69MxE/s1600/jtr.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-WGf9KhJiN40/U9TiU7AzjFI/AAAAAAAAAzg/Zj_86E69MxE/s1600/jtr.png" height="181" width="200" /></a></div><br /></div>

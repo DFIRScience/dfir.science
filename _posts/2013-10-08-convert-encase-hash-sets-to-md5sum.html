@@ -1,0 +1,16 @@
+---
+layout: posts
+title: Convert EnCase hash sets to md5sum
+date: '2013-10-08T16:50:00.000+09:00'
+author: Joshua
+tags:
+- Digital Forensics
+- Thanks!
+- dfir
+- Hashing
+modified_time: '2015-08-24T22:36:08.557+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-7471939263533370366
+blogger_orig_url: https://DFIR.Science/2013/10/convert-encase-hash-sets-to-md5sum.html
+---
+
+I managed to get a hold of a list of known-bad hashes to use in an experiment. The hashes, however, were in EnCase ".hash" format.<br /><div><br /></div><div>I am mostly using the SleuthKit's <a href="http://www.sleuthkit.org/sleuthkit/man/hfind.html" target="_blank">hfind</a>&nbsp;to do some hash comparisons. My setup could already use the NSRL hash sets with no problem, and TSK is supposed to support EnCase hash sets. I was able to create an index for the EnCase hash sets, but when I attempted to query, I would get an error:</div><div><br /></div><div><span style="background-color: white; font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; font-size: 13.333333969116211px;">Command: hfind db.hash [hash value]&nbsp;</span><br /><span style="background-color: white; font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; font-size: 13.333333969116211px;">Error: "Cannot determine hash database type (hdb_setupindx: Unknown&nbsp;</span><br /><span style="background-color: white; font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; font-size: 13.333333969116211px;">Database Type in index header: encase)</span></div><div><span style="background-color: white; font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; font-size: 13.333333969116211px;"><br /></span></div><div><a href="http://filesystems.996266.n3.nabble.com/hfind-hdb-setupindex-Unknown-database-type-in-index-header-td8044.html" target="_blank">No responses</a> when asking about the error on the mailing list, so I looked for other ways to access the hashes.</div><div><br /></div><div>Finally, I came across Jesse Kornblum's EnCase hash file converter (<a href="http://jessekornblum.com/tools/" target="_blank">encase2txt</a>). The tool built fine in Linux (Ubuntu), and the Windows binary worked with no issue on Windows 7 (64bit).</div><div><br /></div><div>Just point the tool at the EnCase hash database and it will output all the hashes in a format like md5sum. Pipe this plain text output to a file, and you have an md5sum hash file. From this I was able to build the index (hfind -i md5sum hashes.md5) and query the database with no problems.</div><div><br /></div><div>Thanks Jesse!</div><div><br /></div><div>Building and usage:&nbsp;<a href="http://jessekornblum.livejournal.com/166275.html">http://jessekornblum.livejournal.com/166275.html</a></div>

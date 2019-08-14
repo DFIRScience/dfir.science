@@ -1,0 +1,13 @@
+---
+layout: posts
+title: REAPERlive Major Revision in Progress
+date: '2010-01-08T06:07:00.000+09:00'
+author: Joshua
+tags:
+- REAPER
+modified_time: '2012-06-17T07:00:43.818+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-3348657902005915551
+blogger_orig_url: https://DFIR.Science/2010/01/reaperlive-major-revision-in-progress.html
+---
+
+REAPERlive is being revamped. An effort to clean up and standardize a lot of the code is going on. This first part of the project will allow REAPERlive to:<br />1) Run on a single external hard-drive (rather than requiring 2)<br />2) No longer require the investigator have software-detectable serial numbers for their forensic drives (can now use very large flash drives, generic hard drives, etc.)<br />3) Automatically partition the drives during run-time (if not already partitioned)<br />4) Much improved automatic documentation<br /><br />Other issues we are currently thinking about:<br />Bootable CD Rom support: How to securely detect the correct hard drive to store data?<br /><br />Note: OCFA processing will be disabled until the imaging stage is back to stable. Check-out version 2 of the repository for the "original" REAPERlive code. The current version of REAPERdesktop is also now considered outdated, and should not be used until the new version is released.<br /><br />Development Plan/Deliverables:<br />1) At different stages through this revamp REAPERlive will be released as an image (.img) file that can be written directly to a forensic hard drive. As long as you can image, you can run REAPER (no Debian box required!).<br />2) Soon after each image release of REAERlive, an updated REAPERdesktop iso will be released to automatically do all updated actions.

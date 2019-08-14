@@ -1,0 +1,15 @@
+---
+layout: posts
+title: Finding private IP addresses in Email Headers
+date: '2015-11-03T21:26:00.000+09:00'
+author: Joshua
+tags:
+- Digital Forensics
+- Investigation
+- Research
+modified_time: '2015-11-03T21:26:52.159+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-7591025786156684767
+blogger_orig_url: https://DFIR.Science/2015/11/finding-private-ip-addresses-in-email.html
+---
+
+<div class="separator" style="clear: both; text-align: left;">In some cases it may be necessary or helpful to find the private IP of a suspect. This can be difficult, especially since <abbr title="Network address translation">NAT</abbr> is common in most networks. However, if a suspect is sending emails from a local client, the private, as well as public, address may be available in the email header.</div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="145" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png" width="200" /></a></div><br />If gmail is used with a local client (like Thunderbird, Outlook, etc.) then the email header should have the private IP address. Note that it is possible that some of the information is stripped by the client or client network before reaching the SMTP server. Take a look below:<br /><br />----- Mail sent from Thunderbird using googlemail SMTP -----<br />Received: from [10.0.0.101] ([211.111.111.111]) <b>&lt;--- here you can see the private (10.0.0.101) and public (211.111.111.111) IP address of the sender connecting to the SMTP server.</b><br />by smtp.googlemail.com with ESMTPSA id <b>&lt;-- this line tells you that the message was received by SMTP</b><br />for &lt;test@gmail.com&gt;<br />Mon, 02 Nov 2015 23:01:38 -0800 (PST)<br />To: Joshua James &lt;test@gmail.com&gt;<br />From: "Joshua I. James" &lt;test@gmail.com&gt;<br /><br /><br />If the email is sent from the Gmail web interface (in the browser), the private IP address is NOT available. Google's server only sees the suspect's public IP address access the google web server.<br /><br />------- Sent from gmail web interface ------<br />Received: by 10.50.10.233 with HTTP;  <b>&lt;---- "with HTTP" means received via web interface on server 10.50.10.233 (google). The sender's IP is not shown.</b><br />Date: Tue, 3 Nov 2015 16:08:03 +0900<br />Subject: test2<br />From: "Joshua I. James" &lt;test@gmail.com&gt;<br />To: "Joshua I. James" &lt;test@gmail.com&gt;<br /><br />If the header is only showing google's address, then the suspect must have been accessing the web interface (check for "with HTTP"). In that case, google will only have the public IP of the suspect.

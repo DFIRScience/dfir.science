@@ -1,0 +1,13 @@
+---
+layout: posts
+title: 'SIMILE Widgets: Timeline and Timeplot Mac OSx Install'
+date: '2010-07-20T22:53:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.125+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-2368874833363159599
+blogger_orig_url: https://DFIR.Science/2010/07/simile-widgets-timeline-and-timeplot.html
+---
+
+Looking around I just found the <a href="http://www.simile-widgets.org/">SIMILE project</a>. I have been messing around with TSK's fls and looking into <a href="http://log2timeline.net/">log2timeline</a> and think SIMILE widgets might be useful. I am singleing the install instructions here for future reference. The test machine is Mac OS X 10.5.8.<br /><br />Ant is already installed on OS X, but if you want the newest version:<br /><a href="http://github.com/KentBeck/junit/downloads">Download JUnit from here</a><br /><a href="http://ant.apache.org/srcdownload.cgi">Download Apache Ant from here</a><br /><br />JUnit will be a .jar file. Move it into "/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/lib/ext"<br /><br /><code>ant --version # Demonstrate builtin version<br />cd ~/Downloads # Let's get into your downloads folder.<br />tar -xvzf apache-ant-1.8.1-bin.tar.gz # Extract the folder<br />sudo mkdir -p /usr/local # Ensure that /usr/local exists<br />sudo cp -rf apache-ant-1.8.1-bin /usr/local/apache-ant # Copy it into /usr/local<br /># Add the new version of Ant to current terminal session<br />export PATH=/usr/local/apache-ant/bin:"$PATH"<br /># Add the new version of Ant to future terminal sessions<br />echo 'export PATH=/usr/local/apache-ant/bin:"$PATH"' &gt;&gt; ~/.profile<br /># Demonstrate new version of ant<br />ant --version</code><br /><em>http://stackoverflow.com/questions/3222804/how-can-i-install-apache-ant-on-mac-os-x</em><br /><br />Make a working directory for timeline/timeplot:<br /><code>mkdir ~/Documents/Timelines</code><br /><code>cd ~/Documents/Timelines</code><br />Get timeline/timeplot from svn - really only need the trunk:<br /><code>svn checkout http://simile-widgets.googlecode.com/svn/timeline</code><br /><code>svn checkout http://simile-widgets.googlecode.com/svn/timeplot</code><br /><br />Now in both the working directories if you have JRE installed (default in Mac) then you can enter the trunk directory and type ./run<br />This will start a jetty webserver and you can access the time lines from a browser at address: http://127.0.0.1:9999/timeline   (or timeplot) depending on which one you want to view.<br />The index.html file is in /src/webapp.

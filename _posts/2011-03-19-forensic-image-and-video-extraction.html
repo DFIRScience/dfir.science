@@ -1,0 +1,13 @@
+---
+layout: posts
+title: Forensic Image and Video Extraction Support (FIVES) Project
+date: '2011-03-19T02:04:00.000+09:00'
+author: Joshua
+tags:
+- REAPERPreview
+modified_time: '2012-06-17T07:13:11.348+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-3954019070894831475
+blogger_orig_url: https://DFIR.Science/2011/03/forensic-image-and-video-extraction.html
+---
+
+While working with the <a href="http://ocfa.sourceforge.net/">Open Computer Forensics Architecture (OCFA)</a>, I came across the <a href="http://fives.kau.se/">Forensic Image and Video Extraction Support (FIVES)</a> project. At the time, REAPER was in the proof of concept stage, and I was thinking more about automated imaging and verification than image and video processing, but with interest in REAPER Preview, image and video detection became more important. Eventually, the developer of Automated Network Triage (ANT) reminded me of FIVES. Taking a closer look, they have some tools, such as face detection and age estimation (using OpenCV) that was exactly what I was looking for. What makes the project even better is the fact that each of the tools are modules that can be plugged into OCFA. I am working on giving REAPER preview a smaller memory footprint, integrating some of the new Sleuth Kit features, and will definitely be trying out some of the FIVES tools.

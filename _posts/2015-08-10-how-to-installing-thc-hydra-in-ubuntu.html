@@ -1,0 +1,16 @@
+---
+layout: posts
+title: "[How-To] Installing thc Hydra in Ubuntu"
+date: '2015-08-10T22:45:00.000+09:00'
+author: Joshua
+tags:
+- Threats
+- Password Cracking
+- HowTo
+modified_time: '2015-08-24T22:35:19.219+09:00'
+thumbnail: http://3.bp.blogspot.com/-eEKpp6ZLcpw/Vcintlj50zI/AAAAAAAAA_Y/gfmjydlPGWw/s72-c/xhydra.png
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-5304326144660804183
+blogger_orig_url: https://DFIR.Science/2015/08/how-to-installing-thc-hydra-in-ubuntu.html
+---
+
+The steps below are how to easily install thc Hydra in Ubuntu with the majority of required libraries for common tasks. Hydra is a pretty well-known remote authentication service brute force cracker.&nbsp;It can perform rapid dictionary attacks against more then 30 protocols, including telnet, ftp, http, https, smb, several databases, and much more. I usually use it to test web forms on apps I'm making.<br /><br />Please note: The main thc-Hydra website as malicious. Do not visit there on your main system. All of the links on this page go straight to the source at github.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-eEKpp6ZLcpw/Vcintlj50zI/AAAAAAAAA_Y/gfmjydlPGWw/s1600/xhydra.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="200" src="http://3.bp.blogspot.com/-eEKpp6ZLcpw/Vcintlj50zI/AAAAAAAAA_Y/gfmjydlPGWw/s200/xhydra.png" width="200" /></a></div><br />First you need to install git and tools to build the code. We will use this to get the source for thc-Hydra, and to update it from time to time.<br /><br /><pre>sudo apt-get install git build-essential</pre><br />Next, we need to get the <a href="https://github.com/vanhauser-thc/thc-hydra" target="_blank">source</a> for thc-Hydra from github:<br /><br /><pre>cd /opt/<br />git clone https://github.com/vanhauser-thc/thc-hydra.git<br />sudo chown -R [your username] thc-hydra<br />sudo chmod -R 755 thc-hydra<br /></pre><br />Now you should have the source code, but most likely if you install now it will be missing a lot of the libraries it needs. Install some of the most common libraries from the packages below:<br /><br /><pre>sudo apt-get install zlib1g-dev libssl-dev libidn11-dev libcurses-ocaml-dev libpcre3-dev libpq-dev libsvn-dev libafpclient-dev libssh-dev<br /></pre><br />Now try to build hydra<br /><br /><pre>./configure</pre><br />Check the output and see if you can find any missing libraries.<br /><br /><pre>./configure<br />make -jX<br />sudo make install<br /></pre><br />Here "make -jX" where X is the number of processors your system has. <br /><br />Now hydra should be installed. Type which hydra to see the install location. You can test ssh with a password list with the following command:<br /><br /><pre>/usr/local/bin/hydra -l root -P PW.list -f -s 22 -t 4 -e ns  127.0.0.1 ssh<br /></pre><pre><br /></pre>

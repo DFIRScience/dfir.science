@@ -1,0 +1,13 @@
+---
+layout: posts
+title: Installing a Eucalyptus Cloud with Debian Squeeze
+date: '2011-01-23T03:35:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.332+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-7212568766650923758
+blogger_orig_url: https://DFIR.Science/2011/01/installing-eucalyptus-cloud-on-debian.html
+---
+
+When trying to install Eucalyptus on Debian, the newest version seemed to be packaged for Squeeze. I tried this directly on Lenny, but it did not work. I have never had luck trying to upgrade from Lenny to Squeeze. I suggest a new install rather than upgrading. Squeeze (testing) can be found here: http://www.debian.org/devel/debian-installer/<br /><br />Just completed the install with Squeeze RC1 with no problems.<br />Eucalyptus hosts its own repository for Squeeze, which makes everything much, much easier. Also the documentation is pretty good, so this part will mostly be links.<br /><ul><br /><li><a href="http://open.eucalyptus.com/wiki/EucalyptusInstallationDebian_v2.0">Install the front-end cloud controller and any nodes</a> (nodes can be added later)</li><br /><li> Next I suggest <a href="http://open.eucalyptus.com/wiki/Euca2oolsSqueezeInstall_v1.1">installing Euca2ools</a> at the same time since you will need them anyway</li><br /><li> Restart the hosts</li><br /><li> Go to the <a href="http://open.eucalyptus.com/wiki/EucalyptusFirstTimeSetup_v2.0">first time setup</a> to designate the front-end and join nodes to the pool</li><br /><li> You should have logged into the front-end to see the first-time settings and change the admin password. Make sure you downloaded your credentials onto the front-end machine, and you have sources the key info file.</li><br /><li> Now you will need an image. I suggest <a href="http://open.eucalyptus.com/wiki/EucalyptusUserImageCreatorGuide_v1.6">going to the repository</a> and selecting one yourself to start out with.</li><br /><li> Once you have an image, then <a href="http://open.eucalyptus.com/wiki/EucalyptusImageManagement_v1.6">add it to Eucalyptus</a></li><br /><li> Make sure the service is running on the nodes: /etc/init.d/eucalyptus-nc start</li><br /><li> See <a href="http://open.eucalyptus.com/wiki/EucalyptusGettingStarted_v1.6">this documentation section 4</a> for a quick start for an instance</li></ul><br />That should pretty much do it without any fancy configuration options (such as elastic IPs).

@@ -1,0 +1,14 @@
+---
+layout: posts
+title: "[How to] Install pHash on Ubuntu"
+date: '2013-06-22T21:35:00.001+09:00'
+author: Joshua
+tags:
+- Perceptual hashing
+- HowTo
+modified_time: '2015-08-24T22:35:19.262+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-6022076813529758195
+blogger_orig_url: https://DFIR.Science/2013/06/how-to-install-phash-on-ubuntu.html
+---
+
+<blockquote class="tr_bq">pHash is an open source software library released under the GPLv3 license that implements several perceptual hashing algorithms, and provides a C-like API to use those functions in your own programs. pHash itself is written in C++.</blockquote>From <a href="http://phash.org/">pHash.org</a>: A perceptual hash is a fingerprint of a multimedia file derived from various features from its content. Unlike cryptographic hash functions which rely on the avalanche effect of small changes in input leading to drastic changes in the output, perceptual hashes are "close" to one another if the features are similar.<br /><br />Ubuntu has a package libphash0 and libphash0-dev, but for this tutorial we will be installing from source.<br /><br />Installation of pHash on Ubuntu (from source). This tutorial assumes you have build tools, like build-essential, installed.<br /><br />Packages: apt-get install libavformat-dev libmpg123-dev libsamplerate-dev libsndfile-dev cimg-dev libavcodec-dev ffmpeg libswscale-dev<br /><br />Next download pHash source from:&nbsp;<a href="http://phash.org/download/">http://phash.org/download/</a><br />Version at the time of this writing: 0.9.6<br /><br />Extract the tar: tar -xvf pHash-0.9.6.tar.gz<br />Standard configure and make: &nbsp;./configure &amp;&amp; make &amp;&amp; make install<br /><br />Remember this is just the library. For PHP bindings try this:&nbsp;<a href="http://useranswer.com/answer/compile-phash-on-centos-php-extension/">http://useranswer.com/answer/compile-phash-on-centos-php-extension/</a>

@@ -1,0 +1,13 @@
+---
+layout: posts
+title: "[How To] Easy Install TexStudio on Ubuntu"
+date: '2014-09-01T16:00:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.276+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-6255605877387234718
+blogger_orig_url: https://DFIR.Science/2014/09/how-to-easy-install-texstudio-on-ubuntu.html
+---
+
+I mess around with the internals of my operating systems a lot. This means that every few months I need to re-install my operating system, which, lately, is almost always <a href="http://www.linuxmint.com/" target="_blank">Linux Mint</a>. This also means that I have to remember most of the packages I have installed.<br /><div><br /></div><div>Out of all the software I normally use, LaTeX is usually one of the most difficult to remember. However, I have found package combination that gets most - if not all - of the packages I would normally used for LaTeX.</div><div><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://texstudio.sourceforge.net/images/texstudio128x128.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://texstudio.sourceforge.net/images/texstudio128x128.png" /></a></div><div>First, I use <a href="http://texstudio.sourceforge.net/" target="_blank">TeXstudio</a> as a graphical front-end for LateX. Thankfully, they provide .deb packages on their site. First, download the latest version. There is a version in the apt repository, but it is older.</div><div><br /></div><div>After downloading and installing TeXstudio, you may notice that LaTeX, bibtex and all the other packages you likely need to be able to produce documents is unavailable. Almost everything can be found in the following packages:</div><div><br /></div><pre><br />apt-get install texlive texlive-latex-extra texlive-latex-recommended latex-xcolor pgf</pre><br /><br />If you prefer things like Biber, it can also be found in the repository. However, it will likely take more tweaking to get working properly.<br /><br />That's all it takes to get a fully functional LaTeX editor.

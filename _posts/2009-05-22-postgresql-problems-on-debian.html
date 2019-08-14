@@ -1,0 +1,13 @@
+---
+layout: posts
+title: PostgreSql Problems on Debian
+date: '2009-05-22T22:02:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.362+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-7827727040854191654
+blogger_orig_url: https://DFIR.Science/2009/05/singlegresql-problems-on-debian.html
+---
+
+In Debian 5 when installing PostgreSQL - if /var/singlegresql/8.3/main is not created, and the conf files are not available - use the following command:<br /><br />pg_createcluster 8.3 main<br />/etc/init.d/singlegres-8.3 start

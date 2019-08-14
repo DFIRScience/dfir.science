@@ -1,0 +1,13 @@
+---
+layout: posts
+title: Creating and Modifying a User in PSQL
+date: '2009-02-21T01:17:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.241+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-561734509009635364
+blogger_orig_url: https://DFIR.Science/2009/02/creating-and-modifying-user-in-psql.html
+---
+
+When installing OcfaArch on Debain 5, the installer failed to create the 'ocfa' user in singlegresql (psql). The error I get is "Warning: no local database found, please take care to configure your database correctly." :)<br /><br />Anyway, as far as I can tell we can just create the ocfa user manually. This is obviously for any psql implementation, and not OCFA specific.<br /><br />1. Make sure the 'ocfa' user has been created in linux. If not, you might have bigger problems. Try installing OcfaArch again.<br /><br />2. As root, login as user singlegres<br /><code>su - singlegres</code><br />3. Login to psql<br /><code>psql template1</code><br />4. Create the 'ocfa' user<br /><code>CREATE USER ocfa WITH PASSWORD 'password';</code><br />5. Allow the ocfa user to create databases<br /><code>ALTER USER ocfa CREATEDB;</code><br />6. exit psql<br /><code>\q</code><br /><br />Now the ocfa has been created, and is able to create new databases. You can test this by creating a case, or just go directly to <a href="https://DFIR.Science/2009/01/pt3-ocfa-installation-dns-apache-and.html">pt.3 Ocfa Installation - dns, apache, and permissions</a><br /><br />For more information on psql user administration try <a href="http://www.davidpashley.com/articles/singlegresql-user-administration.html">here</a>.

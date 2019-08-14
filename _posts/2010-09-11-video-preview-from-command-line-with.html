@@ -1,0 +1,13 @@
+---
+layout: posts
+title: Video Preview from Command Line with ffmpeg
+date: '2010-09-11T04:33:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.112+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-2068859004603969015
+blogger_orig_url: https://DFIR.Science/2010/09/video-preview-from-command-line-with.html
+---
+
+<a href="https://DFIR.Science/2010/09/video-screenshot-preview-gif-built-from.html">Earlier</a> I singleed about creating an animated preview gif from a given video. When using that method with a file list, ffmpeg would treat the file name as a data stream when read directly into the loop by piping the input file into the loop after done (see the first loop below). I like that method because it is easy, and uses 'read' which does not complain about spaces in file names.<br /><br />You can read more about what I was trying to do <a href="https://DFIR.Science/2010/09/video-screenshot-preview-gif-built-from.html">here</a><br /><br />The fix for the file-name-as-a-data-stream error is to dump each line of the input file into an array first. That is what I am doing below.<br />*Note: You have to set the IFS to something else if the file names have spaces<br /><br /><code>  oldIFS=$IFS<br />  IFS=:<br />        while read line; do<br />                filenames=("${filenames[@]}" "$line")<br />        done &gt; $errorfile<br />        fi<br />        let COUNTER=COUNTER+1<br />        if [ "$COUNTER" -eq "10000100" ]<br />        then<br />                echo "First 100 Thumbnails Generated: `date`" &gt; $OUTPUT/videosdone<br />        fi<br />        done<br />fi<br />IFS=$oldIFS</code>

@@ -1,0 +1,13 @@
+---
+layout: posts
+title: OCFA Installation - Creating a Temporary Share
+date: '2009-01-08T06:26:00.000+09:00'
+author: Joshua
+tags:
+- HowTo
+modified_time: '2015-08-24T22:35:19.369+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.single-7885337361110919998
+blogger_orig_url: https://DFIR.Science/2009/01/ocfa-installation-creating-temporary.html
+---
+
+This single will cover creating a temporary file share on your Samba server to easily share packages. This tutorial is geared towards OCFA on Debian users, but is a general Samba share configuration.<br /><br />The only assumption is that you have a working Samba installation.<br /><br />Log in as root<br />Create the directory you want to share - mine will be called 'ocfaShare' and will be directly under /<br /><code>cd /<br />mkdir ocfaShare<br />chmod 777 ocfaShare</code>Note 777 is dangerous if you are not on a trusted network. Make sure you apply permissions appropriate to your situation. Click <a href="http://www.comptechdoc.org/os/linux/usersguide/linux_ugfilesp.html">here</a> for a tutorial on setting Linux file permissions.<br /><br />Now open an editor and edit /etc/samba/smb.conf<br /><code>vi /etc/samba/smb.conf</code>Add the following to smb.conf:<br /><code>[ocfaShare]<br />path = /ocfaShare/<br />valid users = (the name of a local user account)<br />public = no<br />writeable = yes<br />create mask = 775</code><br />Save smb.conf, and exit.<br />Create 'smbusers' in /etc/samba/<br /><code>vi /etc/samba/smbusers</code><br />For each user you want to create add the line<br /><code>  = “”</code>Where username is the name of the user you specified in the 'valid users' section. Then save, and exit.<br />Now set a samba password for the user:<br /><code>smbpasswd -a username</code>Now restart Samba<br /><code>/etc/init.d/samba restart</code>Type 'ifconfig' to get the IP address of the local computer (usually eth0).<br />Using this IP address you should be able to access the share.<br /><br />On a Windows computer, go to 'start' and 'run' then type '\\x.x.x.x/ocfaShare/' where x is your ip address.<br />On MacOSX go to 'Go' and 'Connect to Server'. For the server address type in 'smb://x.x.x.x/ocfaShare'<br />In both cases you will be asked to log in. Use the username and password you specified earlier.<br /><br />Just remove the line in smb.conf starting with [ocfaShare] to remove the shared folder when done.

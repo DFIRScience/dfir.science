@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "[How to] Using Tesseract-OCR to extract text from images"
 date: '2017-04-14T17:44:29+09:00'
 author: Joshua

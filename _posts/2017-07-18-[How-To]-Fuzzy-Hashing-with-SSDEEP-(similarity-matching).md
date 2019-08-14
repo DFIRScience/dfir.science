@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "[How To] Fuzzy Hashing with SSDEEP (similarity matching)"
 date: '2017-07-18T19:27:49+09:00'
 author: Joshua

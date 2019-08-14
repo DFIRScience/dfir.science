@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "In-place Hash Comparison with Sleuthkit and CoreUtils on Windows"
 date: '2018-05-04T19:52:36+09:00'
 author: Joshua

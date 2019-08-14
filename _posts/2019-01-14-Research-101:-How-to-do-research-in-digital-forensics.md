@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "Research 101: How to do research in digital forensics"
 date: '2019-01-14T15:46:35+09:00'
 author: Joshua

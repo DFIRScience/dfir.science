@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "ICDF2C 2018 Extended Call for Papers"
 date: '2018-05-04T20:43:34+09:00'
 author: Joshua

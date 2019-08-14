@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "Switching to Jekyll"
 date: '2017-01-19T21:04:28+09:00'
 author: Joshua

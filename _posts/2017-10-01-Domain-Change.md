@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "Changing Domain to DFIR.Science"
 date: '2017-10-01T14:44:16+09:00'
 author: Joshua

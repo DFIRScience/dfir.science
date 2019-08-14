@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "EWF Tools: working with Expert Witness Files in Linux"
 date: '2017-11-12T21:42:22+09:00'
 author: Joshua

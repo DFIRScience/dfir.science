@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "Cybersecurity Revolution Conference 2018: Lessons learned"
 date: '2018-06-05T20:55:06+09:00'
 author: Joshua

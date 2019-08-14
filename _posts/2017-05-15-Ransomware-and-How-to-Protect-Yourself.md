@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "Ransomware and How to Protect Yourself"
 date: '2017-05-15T09:30:15+09:00'
 author: Joshua

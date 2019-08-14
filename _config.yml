@@ -25,7 +25,7 @@ url                      : "https://DFIR.Science"
 baseurl                  : "/"
 repository               : "jijames/dfir.science"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/REAPERlogo.png"
+logo                     : "/assets/images/REAPERlogoMini.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -108,29 +108,29 @@ analytics:
 # Site Author
 author:
   name             : "Joshua I. James"
-  avatar           : "/assets/images/REAPERlogoMini.png"
+  avatar           : "/assets/images/REAPERlogo.png"
   bio              : "Digital Investigation Researcher"
   location         : "South Korea"
   email            : "joshua+2020@dfir.science"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:joshua+2020@dfir.science
+      #url: mailto:joshua+2020@dfir.science
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://dfir.science"
+      #url: "https://dfir.science"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/DFIRScience"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/DFIR.Science"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jijames"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/DFIR.Science"
 
 # Site Footer
 footer:
@@ -139,14 +139,11 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/DFIRScience"
     - label: "Youtube"
-      icon: fab fa-youtube-square
+      icon: "fab fa-yt fa-youtube-square"
       url: "https://youtube.com/DFIRScience"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/DFIR.Science"
-    - label: "Feed"
-      icon: "fas fa-rss-square"
-      url: "feed.xml"
 
 
 # Reading Files

@@ -49,5 +49,5 @@ someone days "Hey guys - check this out: https://dfir.science", the bot could pa
 ### Getting running
 Overall, getting a basic bot working took about twenty minutes. I can already see conversations, and just need to make the response functions.
 
-{% include figure image_path="/assets/images/2019TelegramResearchBot.jpeg" alt="Image of Telegram messenger chatting to a default bot written in Golang" %}
+{% include figure image_path="/assets/images/posts/2019TelegramResearchBot.jpeg" alt="Image of Telegram messenger chatting to a default bot written in Golang" %}
 

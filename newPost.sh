@@ -11,15 +11,15 @@ FILENAME="$DATE-${TITLE}.md"
 POST="_posts/$FILENAME"
 
 echo "---" > $POST
-echo "layout: post" >> $POST
-echo "title: '${1}'" >> $POST
+echo "layout: single" >> $POST
+echo "title: \"${1}\"" >> $POST
 echo "date: '$DATETIME'" >> $POST
-echo "author: Joshua" >> $POST
+echo "author: \"Joshua\"" >> $POST
 echo "tags:" >> $POST
-echo "- infosec" >> $POST
-echo "- dfir" >> $POST
+echo "  - infosec" >> $POST
+echo "  - dfir" >> $POST
 echo "modified_time: '$DATETIME'" >> $POST
 echo "---" >> $POST
 
-atom $POST &
+code $POST &
 fi

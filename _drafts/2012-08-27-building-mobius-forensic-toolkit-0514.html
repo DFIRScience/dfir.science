@@ -1,0 +1,12 @@
+---
+layout: post
+title: Building Mobius Forensic Toolkit 0.5.14 on OS X
+date: '2012-08-27T20:09:00.004+09:00'
+author: Joshua
+tags: 
+modified_time: '2012-08-27T20:09:29.495+09:00'
+blogger_id: tag:blogger.com,1999:blog-2701259639305045003.post-3458967287847352938
+blogger_orig_url: http://www.cybercrimetech.com/2012/08/building-mobius-forensic-toolkit-0514.html
+---
+
+http://packetstormsecurity.org/files/115723/mobiusft-0.5.14.tar.gz<br /><br />Requires:<br />pygobject-2.0:&nbsp;<a href="http://ftp.gnome.org/pub/GNOME/sources/pygobject/">http://ftp.gnome.org/pub/GNOME/sources/pygobject/</a><br />Note: the newest version of pygobject requires a version of gobject-introspection above what is available in macports. Because of this I went with version 2.10.1, which built without incident.<br /><br />PyGTK:&nbsp;<a href="http://www.pygtk.org/downloads.html">http://www.pygtk.org/downloads.html</a><br />For me pygtk installed from source with the standard ./configure make &amp;&amp; make install<br /><br />Download Mobius Forensic Toolkit sources<br />tar -xvf mobiusft-0.5.14.tar.gz<br />sudo python setup.py install

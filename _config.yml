@@ -95,7 +95,7 @@ og_image                 : "/assets/images/REAPERlogo.png" # Open Graph/Twitter 
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: [https://twitter.com/DFIRScience, https://youtube.com/DFIRScience, https://github.com/jijames]
+  links: https://twitter.com/DFIRScience, https://youtube.com/DFIRScience, https://github.com/jijames
 
 # Analytics
 analytics:

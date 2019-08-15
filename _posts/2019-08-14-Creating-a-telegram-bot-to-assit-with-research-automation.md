@@ -2,13 +2,13 @@
 layout: single
 title: "Creating a telegram bot to assist with research automation"
 date: '2019-08-14T17:12:26+09:00'
-author: "Joshua"
+author: "Joshua I. James"
 tags:
   - automation
   - research
   - telegram
   - bot
-modified_time: '2019-08-14T17:12:26+09:00'
+modified_time: ''
 ---
 
 Over the past few years, the [LIFS@Hallym Research Group](https://lifs.hallym.ac.kr) grew big, really fast.

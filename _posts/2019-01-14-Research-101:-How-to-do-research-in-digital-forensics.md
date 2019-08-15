@@ -2,7 +2,7 @@
 layout: single
 title: "Research 101: How to do research in digital forensics"
 date: '2019-01-14T15:46:35+09:00'
-author: Joshua
+author: "Joshua I. James"
 tags:
 - research
 - how to
@@ -11,7 +11,7 @@ tags:
 - dfir
 - digital forensics
 - digital forensic science
-modified_time: '2019-01-14T15:46:35+09:00'
+modified_time: ''
 ---
 
 Digital forensic science includes many areas of study. Gaining a background in every relevant area is difficult, if not impossible. However, all knowledge in the field needs to start with *asking a question*. Many students I've worked with, however, are even unsure about how to start asking questions.

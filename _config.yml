@@ -95,7 +95,7 @@ og_image                 : "/assets/images/REAPERlogo.png" # Open Graph/Twitter 
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links: [https://twitter.com/DFIRScience, https://youtube.com/DFIRScience, https://github.com/jijames]
 
 # Analytics
 analytics:
@@ -119,6 +119,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       #url: "https://dfir.science"
+    - label: "Youtube"
+      icon: "fab fa-yt fa-youtube-square"
+      url: "https://youtube.com/DFIRScience"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/DFIRScience"

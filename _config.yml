@@ -111,11 +111,11 @@ author:
   avatar           : "/assets/images/REAPERlogo.png"
   bio              : "Digital Investigation Researcher"
   location         : "South Korea"
-  email            : "joshua+2020@dfir.science"
+  email            : "joshua+2020@dfirscience.org"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:joshua+2020@dfir.science
+      #url: mailto:joshua+2020@dfirscience.org
     - label: "Website"
       icon: "fas fa-fw fa-link"
       #url: "https://dfir.science"

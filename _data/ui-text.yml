@@ -383,7 +383,7 @@ zh: &DEFAULT_ZH_HANS
   toc_label                  : "在本页上"
   ext_link_label             : "直接链接"
   less_than                  : "少于"
-  minute_read                : "分钟读完"
+  minute_read                : "分钟阅读"
   share_on_label             : "分享"
   meta_label                 :
   tags_label                 : "标签:"
@@ -399,10 +399,10 @@ zh: &DEFAULT_ZH_HANS
   website_label              : "网站"
   email_label                : "电子邮箱"
   recent_posts               : "最新文章"
-  undefined_wpm              : "_config.yml配置中words_per_minute字段未定义"
+  undefined_wpm              : "_config.yml 配置中 words_per_minute 字段未定义"
   comment_form_info          : "您的电子邮箱地址并不会被展示。请填写标记为必须的字段。"
   comment_form_comment_label : "评论"
-  comment_form_md_info       : "Markdown语法已支持。"
+  comment_form_md_info       : "支持 Markdown 语法。"
   comment_form_name_label    : "姓名"
   comment_form_email_label   : "电子邮箱"
   comment_form_website_label : "网站（可选）"
@@ -879,7 +879,10 @@ nl: &DEFAULT_NL
   comment_success_msg        : "Bedankt voor uw reactie! Het zal op de site worden weergegeven zodra het is goedgekeurd."
   comment_error_msg          : "Sorry, er is een fout opgetreden bij uw inzending. Zorg ervoor dat alle vereiste velden zijn voltooid en probeer het opnieuw."
   loading_label              : "Laden..."
-  search_label_text          :
+  search_label_text          : "Geef uw zoekterm in..."
+  search_placeholder_text    : "Geef uw zoekterm in..."
+  results_found              : "Resultaat gevonden"
+  back_to_top                : "Terug naar boven"
 nl-BE:
   <<: *DEFAULT_NL
 nl-NL:
@@ -1552,7 +1555,59 @@ hi: &DEFAULT_HI
   back_to_top                : "शीर्ष पर वापस"
 hi-IN:
   <<: *DEFAULT_HI
-
+  
+# Catalan
+# --------------
+ca: &DEFAULT_CA
+  skip_links                 : "Salta els enllaços"
+  skip_primary_nav           : "Salta a la navegació primària"
+  skip_content               : "Salta al contingut"
+  skip_footer                : "Salta al peu"
+  page                       : "Pàgina"
+  pagination_previous        : "Anterior"
+  pagination_next            : "Següent"
+  breadcrumb_home_label      : "Inici"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Mostra/amaga el menú"
+  search_label               : "Mostra/amaga la cerca"
+  toc_label                  : "En aquesta pàgina"
+  ext_link_label             : "Enllaç directe"
+  less_than                  : "es llegeix en menys de"
+  minute_read                : "minut(s)"
+  share_on_label             : "Comparteix a"
+  meta_label                 :
+  tags_label                 : "Etiquetes:"
+  categories_label           : "Categories:"
+  date_label                 : "Actualitzat:"
+  comments_label             : "Deixa un comentari"
+  comments_title             : "Comentaris"
+  more_label                 : "Llegeix més"
+  related_label              : "També et pot agradar"
+  follow_label               : "Segueix-me:"
+  feed_label                 : "Feed"
+  powered_by                 : "Funciona amb"
+  website_label              : "Pàgina web"
+  email_label                : "Correu electrònic"
+  recent_posts               : "Entrades recents"
+  undefined_wpm              : "El paràmetre words_per_minute no està definit a _config.yml"
+  comment_form_info          : "No es mostrarà el teu correu electrònic. Els camps obligatoris estan marcats"
+  comment_form_comment_label : "Comentari"
+  comment_form_md_info       : "Admet Markdown."
+  comment_form_name_label    : "Nom"
+  comment_form_email_label   : "Correu electrònic"
+  comment_form_website_label : "Pàgina web (opcional)"
+  comment_btn_submit         : "Envia"
+  comment_btn_submitted      : "Enviat"
+  comment_success_msg        : "Gràcies pel teu comentari! Apareixerà un cop sigui aprovat."
+  comment_error_msg          : "Hi ha hagut un error enviat el comentari. Comprova que els camps obligatirs estiguin omplerts i torna-ho a provar."
+  loading_label              : "Carregant..."
+  search_label_text          : "Introdueix termes per cercar..."
+  search_placeholder_text    : "Introdueix termes per cercar..."
+  results_found              : "resultat(s)"
+  back_to_top                : "Torna a dalt"
+ca-ES:
+  <<: *DEFAULT_CA
+  
 # Another locale
 # --------------
 #

@@ -6,13 +6,12 @@ excerpt: "Contact us"
 modified: 2019-12-14T19:01:22+09:00
 ---
 
-If you have any questions about digital crime and investigation topics, comments on articles or are interested in research collaboration, please email Dr. Joshua I. James at: [joshua+2020@DFIRScience.org](joshua+2020@DFIRScience.org) or reach us on [Twitter](https://twitter.com/dfirscience).
+For questions about consulting or running a training course, please [email us](joshua+2020@DFIRScience.org) and put "CONSULTING" in the subject.
 
-PGP: [0x4069870abb742ef8](http://pgp.mit.edu/pks/lookup?op=get&search=0x4069870ABB742EF8) ~ [Download](/assets/publickey.joshua@dfirscience.org-2990418eae704c0b159934e84069870abb742ef8.asc)
+If you are looking to join the DFIR.Science community, please see our [Patreon](https://patreon.com/dfirscience) page. Supporters get priorty answers, extra content, and can even book a one-hour chat/skype session to discuss any topic you need.
 
-* [Legal Informatics and Forensic Science Institute](https://lifs.hallym.ac.kr)
-* [ResearchGate](https://www.researchgate.net/profile/Joshua_I_James)
-* [Google Scholar](https://scholar.google.com/citations?&user=qDls2CDoIsoC)
-* [Digital Forensic Investigation Research Laboratory (DFIRE)](http://digitalfire.ucd.ie)
+If you are a student working on a paper, thesis or dissertation and would like help on topics and structure, please [email us](joshua+2020@DFIRScience.org) and put "THESIS REVIEW" in the subject.
 
-Alternatively, see the sidebar for social networks we are on.
+For general questions, follow us on [Twitter](https://twitter.com/dfirscience).
+
+* PGP: [0x4069870abb742ef8](http://pgp.mit.edu/pks/lookup?op=get&search=0x4069870ABB742EF8) | [Download](/assets/publickey.joshua@dfirscience.org-2990418eae704c0b159934e84069870abb742ef8.asc)

@@ -55,7 +55,6 @@ If you are looking to join the DFIR.Science community, please see our [Patreon](
     <img src="/assets/images/DFIRScienceXLM.png" /><br>
     <strong>Address:</strong> GAHBMCEYHEVP5RFZ7KOS4CIKSNPHMACONSBLSSSRNKX3EGL733C3TPRG
 </details>
-<br>
 <details>
     <summary>Ripple (XRP)</summary>
     <br>
@@ -63,21 +62,19 @@ If you are looking to join the DFIR.Science community, please see our [Patreon](
     <strong>Address:</strong> rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg<br>
     <strong>XRP Tag:</strong> 3206939566 (required)
 </details>
-<br>
 <details>
     <summary>Bitcoin (BTC)</summary>
     <br>
     <img src="/assets/images/DFIRScienceBTC.png" /><br>
     <strong>Address:</strong> 1BxSmitVcXgQeDFeCQTLTcnJUuMUawjSYj
 </details>
-<br>
 <details>
     <summary>Ethereum (ETH)</summary>
     <br>
     <img src="/assets/images/DFIRScienceETH.png" /><br>
     <strong>Address:</strong> 0xc946Ea4d18B18CEC50Ac7A11bEeaCCCa42040686
 </details>
-
+<br>
 If you are interested in donating a cryptocurrency that is not listed, [email us](joshua+2020@DFIRScience.org) for address information.
 
 ## Revenue Disclosure

@@ -14,13 +14,13 @@ We are usually the most active on [Twitter](https://twitter.com/dfirscience).
 
 ## Goals
 
-Our main goal is to make computing, information security and digitial forensic investigation knowledge accessabile to everyone. Infosec and digital forensic knowledge is especially expensive to access. We want every investigator, regardless of budget, to have access to good quality information and tools.
+Our main goal is to make computing, information security, and digital forensic investigation knowledge accessible to everyone. Infosec and digital forensic knowledge are especially expensive to access. We want every investigator, regardless of budget, to have access to useful information and tools.
 
 Our ultimate goal is for the revenue generated from this site to support us working full time to build low-cost digital forensic laboratories for countries in need. We have worked with countries around the world to increase their digital investigation capacity and capabilities, usually funded by short-term grants. Most countries, however, need long-term support to use resources to their maximum potential. If you are interested in helping us achieve this goal, please [support us](#support).
 
 ## Whoami
 
-This site is mainly the work of [Joshua I. James](https://www.linkedin.com/in/jijames/). He is a trainer, professor and consultant for digital investigations. He recieved his PhD in Computer Science at [UCD](http://www.ucd.ie/) with a focus on AI in digital investigations. He currently runs DFIR.Science in his free time. If you would like to see more DFIR content, please [support us](#support).
+This site is mainly the work of [Joshua I. James](https://www.linkedin.com/in/jijames/). He is a trainer, professor, and consultant for digital investigations. He received his Ph.D. in Computer Science at [UCD](http://www.ucd.ie/) with a focus on AI in digital investigations. He currently runs DFIR.Science in his free time. If you would like to see more DFIR content, please [support us](#support).
 
 * PGP: [0x4069870abb742ef8](http://pgp.mit.edu/pks/lookup?op=get&search=0x4069870ABB742EF8) | [Download](/assets/publickey.joshua@dfirscience.org-2990418eae704c0b159934e84069870abb742ef8.asc)
 
@@ -40,7 +40,7 @@ If you are an undergrad/graduate student working on a paper, thesis or dissertat
 
 <a name="support"></a>
 
-If you are looking to join the DFIR.Science community, please see our [Patreon](https://patreon.com/dfirscience) page. Supporters get priorty answers, extra content, and can even book a face-to-face chat/skype session to discuss any topic you need. With enough community support we will help build digital forensic laboratories for couries in need.
+If you are looking to join the DFIR.Science community, please see our [Patreon](https://patreon.com/dfirscience) page. Supporters get priority answers, extra content, and can even book a face-to-face chat/skype session to discuss any topic you need. With enough community support, we will help build digital forensic laboratories for countries in need.
 
 ### Other ways to support
 
@@ -79,10 +79,10 @@ If you are interested in donating a cryptocurrency that is not listed, [email us
 
 ## Revenue Disclosure
 
-This site is not funded by any specific organization. If any content is sponsored, we will make the sponsorship clear on the post or on this page. Our goal is to eventually remove tracking-based advertisements on all content. Currently, revenue is generated from the following sources:
+This site is not funded by any specific organization. If any content is sponsored, we will make the sponsorship clear on the post or this page. Our goal is to remove tracking-based advertisements on all content eventually. Currently, revenue is generated from the following sources:
 
 * [Youtube ads](https://youtube.com/dfirscience)
 * [Brave Rewards](https://brave.com/dfi747)
 * Affiliate Links
 
-In the future we hope to move to community-sponsorship model on [Patreon](https://patreon.com/dfirscience) to remove ads and trackers from our content.
+In the future, we hope to move to the community-sponsorship model on [Patreon](https://patreon.com/dfirscience) to remove ads and trackers from our content.

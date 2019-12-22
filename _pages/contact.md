@@ -44,21 +44,43 @@ If you are looking to join the DFIR.Science community, please see our [Patreon](
 
 ### Other ways to support
 * [Paypal](https://paypal.me/JIJUS)
+* [Brave Tips](https://brave.com/dfi747)
 
 #### Donate Cryptocurrency
+
 <details>
-<summary>Stellar Lumens (XLM)</summary>
-<br>
-<img src="/assets/images/DFIRScienceXLM.png" />
-Address: GAHBMCEYHEVP5RFZ7KOS4CIKSNPHMACONSBLSSSRNKX3EGL733C3TPRG
+    <summary>Stellar Lumens (XLM)</summary>
+    <br>
+    <img src="/assets/images/DFIRScienceXLM.png" /><br>
+    <strong>Address:</strong> GAHBMCEYHEVP5RFZ7KOS4CIKSNPHMACONSBLSSSRNKX3EGL733C3TPRG
 </details>
+<details>
+    <summary>Ripple (XRP)</summary>
+    <br>
+    <img src="/assets/images/DFIRScienceXRP.png" /><br>
+    <strong>Address:</strong> rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg<br>
+    <strong>XRP Tag:</strong> 3206939566 (required)
+</details>
+<details>
+    <summary>Bitcoin (BTC)</summary>
+    <br>
+    <img src="/assets/images/DFIRScienceBTC.png" /><br>
+    <strong>Address:</strong> 1BxSmitVcXgQeDFeCQTLTcnJUuMUawjSYj
+</details>
+<details>
+    <summary>Ethereum (ETH)</summary>
+    <br>
+    <img src="/assets/images/DFIRScienceETH.png" /><br>
+    <strong>Address:</strong> 0xc946Ea4d18B18CEC50Ac7A11bEeaCCCa42040686
+</details>
+
 
 ## Revenue Disclosure
 
 This site is not funded by any specific organization. If any content is sponsored, we will make the sponsorship clear on the post or on this page. Our goal is to eventually remove tracking advertisements (Google/Facebook) on all content. Currently, revenue is generated from the following sources:
 
 * [Youtube](https://youtube.com/dfirscience) ads
-* [Brave Rewards](https://brave.com/)
+* [Brave Rewards](https://brave.com/dfi747)
 * Affiliate Links
 
 In the future, we hope to move to community-sponsorship model, like [Patreon](https://patreon.com/dfirscience).

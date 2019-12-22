@@ -42,16 +42,15 @@ If you are an undergrad/graduate student working on a paper, thesis or dissertat
 
 If you are looking to join the DFIR.Science community, please see our [Patreon](https://patreon.com/dfirscience) page. Supporters get priorty answers, extra content, and can even book a face-to-face chat/skype session to discuss any topic you need.
 
-### Other ways to support:
+### Other ways to support
 * [Paypal](https://paypal.me/JIJUS)
 
-### Cryptocurrency
+#### Donate Cryptocurrency
 <details>
 <summary>Stellar Lumens (XLM)</summary>
 <br>
-**The address and memo is required**<br>
-Address: GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37<br>
-Memo: 65868446
+<img src="/assets/images/DFIRScienceXLM.png" />
+Address: GAHBMCEYHEVP5RFZ7KOS4CIKSNPHMACONSBLSSSRNKX3EGL733C3TPRG
 </details>
 
 ## Revenue Disclosure

@@ -110,7 +110,7 @@ author:
   name             : "Joshua I. James"
   avatar           : "/assets/images/REAPERlogo.png"
   bio              : "Digital Investigation Researcher"
-  location         : ""
+  location         :
   email            : "joshua+2020@dfirscience.org"
   links:
     - label: "Email"

@@ -30,4 +30,4 @@ DFIR.Science reading list is a collection of interesting books, papers and other
 
 ## Fiction
 
-* [Dauntless](https://amzn.to/2MrVcm2) by [Jack Campbell](https://www.goodreads.com/author/show/55547.Jack_Campbell) ([4 of 5 stars](https://www.goodreads.com/review/show/3053217945)) Review: The story bounces between space fiction and management studies. Gives insight into military command.
+* [Dauntless](https://amzn.to/2MrVcm2) by [Jack Campbell](https://www.goodreads.com/author/show/55547.Jack_Campbell) ([4/5](https://www.goodreads.com/review/show/3053217945))

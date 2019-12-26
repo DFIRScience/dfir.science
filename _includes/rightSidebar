@@ -1,0 +1,18 @@
+<aside class="sidebar__right">
+<nav class="toc" markdown="1">
+<header><h4 class="nav__title">DFIR.Science</h4></header>
+<ul>
+<li>Schedule</li>
+<ul>
+<li>Monday: Forensic video</li>
+<li>Wednesday: Blog post</li>
+<li>Friday: Programming video</li>
+</ul>
+<li>DFIR Resources</li>
+<ul>
+<li>[This Week in 4N6](https://thisweekin4n6.com)</li>
+<li>[ForensicFocus](https://forensicfocus.com)
+</ul>
+</ul>
+</nav>
+</aside>

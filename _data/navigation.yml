@@ -1,8 +1,12 @@
 # main links
 main:
+- title: Support
+  url: https://www.patreon.com/bePatron?u=16239620
 - title: Research
   url: /research
-- title: Videos       
+- title: Reading
+  url: /reading
+- title: Videos
   url: https://youtube.com/dfirscience
 #- title: Lectures
 #  url: /Lectures/

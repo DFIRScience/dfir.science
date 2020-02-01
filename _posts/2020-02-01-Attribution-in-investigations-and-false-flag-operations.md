@@ -35,5 +35,5 @@ As investigators, we just need to avoid jumping to conclusions while being aware
 
 Several documents, especially from wikileaks, were discussed. If you've not seen them, it is worth taking a look.
 
-* Vault 7 - (https://wikileaks.org/vault7/)
-* CIA Hacking Tools Leaked Umbrage - (https://wikileaks.org/ciav7p1/index.html)
+* Vault 7 - <https://wikileaks.org/vault7/>
+* CIA Hacking Tools Leaked: Umbrage - <https://wikileaks.org/ciav7p1/index.html>

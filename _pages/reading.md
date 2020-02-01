@@ -3,7 +3,7 @@ layout: single
 permalink: /reading
 title: "Reading List"
 excerpt: "DFIRScience books and articles reading list and comments."
-modified: 2019-12-26T14:24:22+09:00
+modified: 2020-02-01T12:06:22+09:00
 ---
 
 {% include toc %}
@@ -19,6 +19,8 @@ DFIR.Science reading list is a collection of interesting books, papers and other
 ### Infosec
 
 ### General
+* Will Kurt. 2019. [Bayesian Statistics the Fun Way](https://amzn.to/38YFWpK). NoStarch Press.
+  * Recommeded for all investigators to think about reasoning processes.
 
 ## Papers
 

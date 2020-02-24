@@ -21,5 +21,5 @@ echo "  - dfir" >> $POST
 echo "modified_time: \"\"" >> $POST
 echo "---" >> $POST
 
-code $POST &
+codium . $POST &
 fi

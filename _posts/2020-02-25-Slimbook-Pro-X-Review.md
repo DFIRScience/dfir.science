@@ -50,24 +50,25 @@ Most offer some type of "ultraportable." The Slimbook Pro X caught my attention 
 
 Similar spec systems with the other companies were usually more expensive, heavier and with a smaller display.
 
-## Slimbook Pro X Review
 <span id="review"></span>
+## Slimbook Pro X Review
+
 The Slimbook Pro X only comes with a charger and a small pamplet about the system.
 
-![Slimbook Pro X and accessories][assets/images/slimbook/all.jpg]
+![Slimbook Pro X and accessories](assets/images/slimbook/all.jpg)
 
 My first impression when it's closed is that it is quite small. You can see from the pictures below that it is slightly
 smaller than the MBA. However, when you open it, it feels big.
 
-![Slimbook Pro X open view][assets/images/slimbook/open.jpg]
+![Slimbook Pro X open view](assets/images/slimbook/open.jpg)
 
 The device itself is lighter than the 2010 MBA. The MBA feels a bit more robust, but
 the Pro X is not flimsy. However, I wouldn't try to put pressure on the back of the display.
 
-![Slimbook Pro X size comparison with a Macbook Air][assets/images/slimbook/size.jpg]
-![Slimbook Pro X size comparison with a Macbook Air][assets/images/slimbook/top.jpg]
-![Slimbook Pro X size comparison with a Macbook Air][assets/images/slimbook/size2.jpg]
-![Slimbook Pro X size comparison with a Macbook Air][assets/images/slimbook/size3.jpg]
+![Slimbook Pro X size comparison with a Macbook Air](assets/images/slimbook/size.jpg)
+![Slimbook Pro X size comparison with a Macbook Air](assets/images/slimbook/top.jpg)
+![Slimbook Pro X size comparison with a Macbook Air](assets/images/slimbook/size2.jpg)
+![Slimbook Pro X size comparison with a Macbook Air](assets/images/slimbook/size3.jpg)
 
 The Slimbook sits higher than it's frame measurement because of risers on the bottom. The fan vents are on the bottom.
 

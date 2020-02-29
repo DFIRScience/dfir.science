@@ -137,6 +137,14 @@
         </li>
       {% endif %}
 
+      {% if author.mastodon %}
+      <li>
+        <a rel="me" href="https://infosec.exchange/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i> Mastodon
+        </a>
+      </li>
+    {% endif %}
+
       {% if author.github %}
         <li>
           <a href="https://github.com/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer">

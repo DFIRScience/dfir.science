@@ -79,10 +79,10 @@ If you are interested in donating a cryptocurrency that is not listed, [email us
 
 ## Revenue Disclosure
 
-This site is not funded by any specific organization. If any content is sponsored, we will make the sponsorship clear on the post or this page. Our goal is to remove tracking-based advertisements on all content eventually. Currently, revenue is generated from the following sources:
+This site is not funded by any specific organization. If any content is sponsored, we will make the sponsorship clear on the post or this page. Our goal is to remove advertisements on all content eventually. Currently, revenue is generated from the following sources:
 
 * [Youtube ads](https://youtube.com/dfirscience)
 * [Brave Rewards](https://brave.com/dfi747)
 * Affiliate Links
 
-In the future, we hope to move to the community-sponsorship model on [Patreon](https://patreon.com/dfirscience) to remove ads and trackers from our content.
+In the future, we hope to move to the community-sponsorship model on [Patreon](https://patreon.com/dfirscience) to remove ads from our content.

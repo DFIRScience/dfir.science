@@ -47,7 +47,7 @@ Two projects you can add directly from the list are Rosetta@Home and GPUGRID. Fo
 Android is similar. When you first open BOINC, it will show a list of projects. You can choose more than one project at a time. Select your projects, click 'Continue,' enter your email and a password, then the projects... probably won't start.
 By default, your phone needs to be charging for BOINC to do any work. See below on how to change run settings.
 
-![BOINC Manager Android Projects](/assets/images/posts/BOINC02.png "Adding projects in BOINC manager for Android")
+![BOINC Manager Android Projects](/assets/images/posts/BOINC02.jpg "Adding projects in BOINC manager for Android")
 
 After you create an account, the project should be added. That's it! You can just let it run. You may want to control when your computer processes.
 

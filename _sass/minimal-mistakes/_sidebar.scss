@@ -184,13 +184,19 @@
   display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;
-  z-index: 10;
+  z-index: 20;
   position: relative;
   cursor: pointer;
 
   li:last-child {
     a {
       margin-bottom: 0;
+    }
+  }
+
+  .author__urls {
+    span.label {
+      padding-left: 5px;
     }
   }
 

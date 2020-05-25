@@ -276,14 +276,6 @@ defaults:
       comments: true
       share: true
       related: true
-
-# Collections
-collections:
-  python:
-    output: true
-    permalink: /:collection/:path/
-
-defaults:
   # _python
   - scope:
       path: ""
@@ -292,3 +284,20 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _golang
+  - scope:
+      path: ""
+      type: golang
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+# Collections
+collections:
+  python:
+    output: true
+    permalink: /:collection/:path/
+  golang:
+    output: true
+    permalink: /:collection/:path/

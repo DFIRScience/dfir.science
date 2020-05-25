@@ -1,5 +1,5 @@
 ---
-title: "Python 001: Print and Variables"
+title: "Golang 001: test"
 date: 2020-05-25
 ---
 

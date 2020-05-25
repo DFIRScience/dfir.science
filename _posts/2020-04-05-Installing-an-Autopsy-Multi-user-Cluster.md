@@ -1,14 +1,18 @@
 ---
 layout: single
-title: "Installing an Autopsy Multi-user Cluster"
+title: "Notes on Installing an Autopsy Multi-user Cluster"
 date: '2020-04-05T09:56:03+09:00'
 author: "Joshua I. James"
 tags:
   - infosec
   - dfir
+  - autopsy
 modified_time: ""
 ---
 
+Note: This is just initial notes to get an autopsy multi-user cluster working. In my setup Autopsy is installed on Linux, and the servers are Linux-based. So far, a fully-Linux setup looks difficult. It appears that Autopsy shared correlation will work, but distributed processing is questionable. More to come later.
+
+## Getting started
 Main server - Ubuntu 18.04 - install and upgrade
 
 Speed test: NFS vs Samba (2015) - https://ferhatakgun.com/network-share-performance-differences-between-nfs-smb/
@@ -25,12 +29,13 @@ I don't understand why this would be true.
 
 Setting the service user and group did not work for me. Removing it runs activemq as system - not sure if that is desirable...
 
-~~ try with
-sudo /opt/activemq/bin/activemq start
+Instead try with ```sudo /opt/activemq/bin/activemq start
+```
 
-
+```bash
 sudo systemctl restart activemq
 systemctl status activemq
+```
 
 sudo apt install postgresql
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04

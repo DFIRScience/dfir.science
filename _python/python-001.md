@@ -1,5 +1,7 @@
 ---
-title: "Python Programming: Print and Variables"
+title: "Python 001: Print and Variables"
+date: 2020-05-25
+author: Joshua I. James
 ---
 
 In this video we introduce you to the basics of Python programming.

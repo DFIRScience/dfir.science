@@ -1,5 +1,5 @@
 ---
-title: "Python 001: Conditional Statements"
+title: "Python 002: Conditional Statements"
 date: 2020-05-28
 ---
 

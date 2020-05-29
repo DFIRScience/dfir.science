@@ -272,9 +272,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar:
-        nav: "courses"
-      classes: wide
       read_time: true
       comments: true
       share: true

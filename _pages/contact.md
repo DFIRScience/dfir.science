@@ -4,7 +4,7 @@ permalink: /contact
 title: "Contact"
 excerpt: "Contact us"
 modified: 2019-12-22T13:09:22+09:00
-classes: wide
+author_profile: true
 ---
 
 {% include toc %}

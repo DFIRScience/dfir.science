@@ -3,12 +3,16 @@ layout: single
 permalink: /lectures
 title: "Lectures"
 excerpt: "A collection of talks and lectures by Joshua I. James."
-modified: 2017-01-25T19:55:22+09:00
+modified: 2020-05-29T19:55:22+09:00
 ---
 
 Unless otherwise stated these lectures by Dr. Joshua I. James are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
 If you have any questions about any of the following lectures, or would like me to speak with your organization please [contact me](/contact).
+
+## Programming
+* [Introduction to Python Programming](/python/) (series)
+* [Introduction to Golang Programming](/golang/) (series)
 
 ## Digital Forensic Science
 

@@ -4,7 +4,7 @@ permalink: /research
 title: "Research"
 excerpt: "DFIRScience conducts cybercrime and digital forensic investigation research in a number of topic areas. This page is a list of our current work."
 modified: 2017-09-19T21:48:22+09:00
-classes: wide
+author_profile: true
 ---
 
 {% include toc %}

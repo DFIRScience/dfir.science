@@ -8,8 +8,8 @@ main:
 #  url: /reading
 - title: Videos
   url: https://youtube.com/dfirscience
-#- title: Lectures
-#  url: /Lectures/
+- title: Lectures
+  url: /lectures/
 #- title: Projects
 #  url: /Projects/
 - title: Contact

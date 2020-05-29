@@ -5,4 +5,6 @@ permalink: /golang/
 collection: golang
 entries_layout: grid
 classes: wide
+sidebar:
+  nav: "courses"
 ---

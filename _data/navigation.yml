@@ -4,8 +4,8 @@ main:
   url: https://www.patreon.com/bePatron?u=16239620
 - title: Research
   url: /research
-- title: Reading
-  url: /reading
+#- title: Reading
+#  url: /reading
 - title: Videos
   url: https://youtube.com/dfirscience
 #- title: Lectures
@@ -21,4 +21,14 @@ courses:
     - title: "Python"
       url: /python/
     - title: "GO"
+      url: /golang/
+
+blog:
+- title: "Blog Home"
+  url: /
+- title: "Courses"
+  children:
+    - title: "Python Programming"
+      url: /python/
+    - title: "Golang Programming"
       url: /golang/

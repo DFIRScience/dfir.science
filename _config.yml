@@ -285,6 +285,8 @@ defaults:
       classes: wide
       author_profile: false
       share: true
+      sidebar:
+        nav: "courses"
   # _golang
   - scope:
       path: ""
@@ -293,6 +295,8 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      sidebar:
+        nav: "courses"
 
 # Collections
 collections:

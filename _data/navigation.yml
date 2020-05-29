@@ -16,9 +16,8 @@ main:
   url: /contact
 
 courses:
-- title: Courses
+- title: Programming
   children:
-    - title: "Programming"
     - title: "Python"
       url: /python/
     - title: "GO"

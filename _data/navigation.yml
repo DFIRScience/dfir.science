@@ -2,14 +2,14 @@
 main:
 - title: Support
   url: https://www.patreon.com/bePatron?u=16239620
-- title: Research
-  url: /research
+- title: Courses
+  url: /courses
 #- title: Reading
 #  url: /reading
 - title: Videos
   url: https://youtube.com/dfirscience
-- title: Lectures
-  url: /lectures
+- title: Research
+  url: /research
 #- title: Projects
 #  url: /Projects/
 - title: Contact

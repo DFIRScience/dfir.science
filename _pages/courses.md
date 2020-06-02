@@ -1,18 +1,25 @@
 ---
 layout: single
-permalink: /lectures
-title: "Lectures"
+permalink: /courses
+title: "Courses"
 excerpt: "A collection of talks, lectures and courses by Joshua I. James."
-modified: 2020-05-29T19:55:22+09:00
+modified: 2020-06-02T19:55:22+09:00
 ---
 
-Unless otherwise stated these lectures by Dr. Joshua I. James are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
+# Courses
 
-If you have any questions about any of the following lectures, or would like me to speak with your organization please [contact me](/contact).
+The following are a series of free lectures on particular topics. Some may be still ongoing. If you enjoy these lecture series, please consider supporting us.
 
 ## Programming
 * [Introduction to Python Programming](/python/) (series)
 * [Introduction to Golang Programming](/golang/) (series)
+
+## General Science
+* How to do research
+
+# Once-Off Lectures
+
+The following are presentation files for once-off talks or lectures.
 
 ## Digital Forensic Science
 
@@ -30,3 +37,9 @@ If you have any questions about any of the following lectures, or would like me 
 
 * 2015-06: Practical GNU Privacy Guard (GPG) [PDF](/assets/pdf/Security-Practical_GnuPG.pdf)
 * 2015-02: Using GNUPG to Secure Your Communications [PDF](/assets/pdf/Security-Using_GnuPG.pdf)
+
+# License
+
+Unless otherwise stated these lectures by Dr. Joshua I. James are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
+
+If you have any questions about any of the content, or would like me to speak with your organization please [contact me](/contact).

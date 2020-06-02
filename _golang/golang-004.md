@@ -1,10 +1,8 @@
 ---
-title: "Golang 001: test"
-date: 2020-05-25
+title: "GO Programming 004: Loops in Go"
+date: 2020-01-02
 ---
 
-In this video we introduce you to the basics of Python programming.
-Two of the most important concepts are the ability to print to screen
-and set variables.
+In this video, we talk about how to do repetitive processes (loops) in Go. Looping is useful when you want to do some action many times. We can use variables in loops to slightly change the parameters of the action each time the program loops. This video covers "for loops" in Golang using two loop creation methods. We also introduce the concept of a "comment" to add human-readable text inside your code. We build on from video 003 and use variables in our loops.
 
-{% include video id="gvGtUXqJ9Co" provider="youtube" %}
+{% include video id="h2uYmtyS85w" provider="youtube" %}

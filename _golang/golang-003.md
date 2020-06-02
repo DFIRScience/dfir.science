@@ -1,10 +1,8 @@
 ---
-title: "Golang 001: test"
-date: 2020-05-25
+title: "GO Programming 003: Setting variables in Golang"
+date: 2019-12-26
 ---
 
-In this video we introduce you to the basics of Python programming.
-Two of the most important concepts are the ability to print to screen
-and set variables.
+In this video, we talk about how to create and use a variable in Go. We modify our 'Hello World' program to set and print variables instead of strings. A variable is a core programming concept. A variable is a type of container that can hold data. You can replace the data inside the variable over time. 
 
-{% include video id="gvGtUXqJ9Co" provider="youtube" %}
+{% include video id="HHh3ngUUwws" provider="youtube" %}

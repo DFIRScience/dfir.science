@@ -1,10 +1,8 @@
 ---
-title: "Golang 001: test"
-date: 2020-05-25
+title: "GO Programming 005: Conditional Statements"
+date: 2020-03-30
 ---
 
-In this video we introduce you to the basics of Python programming.
-Two of the most important concepts are the ability to print to screen
-and set variables.
+In this video, we talk about conditional checks (if statements) in Go. Conditional checks are useful when you want to make a decision based on the state of some variable. We can use variables in if statements to change the parameters of the conditional check. This video covers "if statements" in Golang using various logic checking methods. We build on from video 003 and use variables in our loops.
 
-{% include video id="gvGtUXqJ9Co" provider="youtube" %}
+{% include video id="XtqtkjPxWcE" provider="youtube" %}

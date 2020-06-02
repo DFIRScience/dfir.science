@@ -16,19 +16,17 @@ main:
   url: /contact
 
 courses:
+- title: Digital Forensics
 - title: Programming
   children:
     - title: "Python"
       url: /python/
     - title: "GO"
       url: /golang/
-
-blog:
-- title: "Blog Home"
-  url: /
-- title: "Courses"
+- title: Science
+- title: Support
   children:
-    - title: "Python Programming"
-      url: /python/
-    - title: "Golang Programming"
-      url: /golang/
+    - title: "Patreon"
+      url: https://www.patreon.com/bePatron?u=16239620
+    - title: "Other"
+      url: /contact#support

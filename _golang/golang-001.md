@@ -1,10 +1,10 @@
 ---
-title: "Golang 001: test"
-date: 2020-05-25
+title: "GO Programming 001: Installing Golang"
+date: 2019-12-19
 ---
 
-In this video we introduce you to the basics of Python programming.
-Two of the most important concepts are the ability to print to screen
-and set variables.
+Get started programming in Go! Go (also known as Golang) is an open source project developed by a team at Google and many contributors from the open source community. It is a fast, fun, and powerful programming language.
 
-{% include video id="gvGtUXqJ9Co" provider="youtube" %}
+In this video, we talk about how to install Go. Our install system is on Linux, but the installation on Windows is very similar. After installation, we use a default "hello world" program to test our installation.
+
+{% include video id="ITntQDGju_U" provider="youtube" %}

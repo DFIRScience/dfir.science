@@ -2,7 +2,7 @@
 layout: single
 permalink: /lectures
 title: "Lectures"
-excerpt: "A collection of talks and lectures by Joshua I. James."
+excerpt: "A collection of talks, lectures and courses by Joshua I. James."
 modified: 2020-05-29T19:55:22+09:00
 ---
 

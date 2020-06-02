@@ -8,9 +8,7 @@ modified: 2020-06-02T19:55:22+09:00
 
 {% include toc %}
 
-# Courses
-
-The following are a series of free lectures on particular topics. Some may be still ongoing. If you enjoy these lecture series, please consider supporting us.
+The following are a series of free lectures on particular topics. Some may be still ongoing. If you enjoy these lecture series, please consider [supporting us](https://www.patreon.com/bePatron?u=16239620).
 
 ## Programming
 * [Introduction to Python Programming](/python/) (series)

@@ -2,7 +2,7 @@
 title: "Python 001: Print and Variables"
 date: 2020-05-25
 header:
-  image: /assets/images/headers/pythonCourse.jpg
+  image: /assets/images/headers/pythonClass.jpg
 ---
 
 In this video we introduce you to the basics of Python programming.

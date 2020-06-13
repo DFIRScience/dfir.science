@@ -8,5 +8,5 @@ classes: wide
 sidebar:
   nav: "courses"
 header:
-  image: /assets/images/headers/pythonCourse.png
+  image: /assets/images/headers/pythonCourse.jpg
 ---

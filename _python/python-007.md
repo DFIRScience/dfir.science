@@ -1,6 +1,8 @@
 ---
 title: "Python 007: Reading and Writing Files"
 date: 2020-06-11
+header:
+  image: /assets/images/headers/pythonClass.jpg
 ---
 
 In this video we introduce basic concepts you'll need to get started such as how to read and write files. Writing to files allows you to save the output from your Python program. Reading from files allows you to load data from the file into your program and work with it.

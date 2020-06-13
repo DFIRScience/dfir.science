@@ -7,4 +7,6 @@ collection: golang
 classes: wide
 sidebar:
   nav: "courses"
+header:
+  image: /assets/images/headers/goCourse.jpg
 ---

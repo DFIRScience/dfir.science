@@ -7,4 +7,6 @@ collection: python
 classes: wide
 sidebar:
   nav: "courses"
+header:
+  image: /assets/images/headers/pythonCourse.png
 ---

@@ -293,6 +293,7 @@ defaults:
       type: golang
     values:
       layout: single
+      classes: wide
       author_profile: false
       share: true
       sidebar:

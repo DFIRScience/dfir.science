@@ -4,6 +4,7 @@ permalink: /courses
 title: "Courses"
 excerpt: "A collection of talks, lectures and courses by Joshua I. James."
 modified: 2020-06-02T19:55:22+09:00
+classes: wide
 ---
 
 {% include toc %}

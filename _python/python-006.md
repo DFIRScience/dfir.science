@@ -9,4 +9,6 @@ In this video we introduce basic concepts you'll need to get started such as how
 
 Each library provides additional functionality that you can call. You can (and should) even write your own libraries of functions for different problems you are working on. This will allow you to reuse functions in different scripts.
 
+Download code examples [here](https://github.com/jijames/LearnPythonProgramming).
+
 {% include video id="su5kxR57zxw" provider="youtube" %}

@@ -5,6 +5,6 @@ header:
   image: /assets/images/headers/pythonClass.jpg
 ---
 
-Introduction to Python Programming. In this video we introduce basic concepts you'll need to get started such as while and for loops and how to use continue and break commands.
+Introduction to Python Programming. In this video we introduce basic concepts you'll need to get started such as while and for loops and how to use continue and break commands. Download code examples [here](https://github.com/jijames/LearnPythonProgramming).
 
 {% include video id="WxKk2b_BaIE" provider="youtube" %}

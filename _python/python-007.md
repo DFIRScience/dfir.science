@@ -5,7 +5,7 @@ header:
   image: /assets/images/headers/pythonClass.jpg
 ---
 
-In this video we introduce basic concepts you'll need to get started such as how to read and write files. Writing to files allows you to save the output from your Python program. Reading from files allows you to load data from the file into your program and work with it.
+In this video we introduce basic concepts you'll need to get started such as how to read and write files. Writing to files allows you to save the output from your Python program. Reading from files allows you to load data from the file into your program and work with it.  Download code examples [here](https://github.com/jijames/LearnPythonProgramming).
 
 Files can either be "text" or "binary". In this video, we talk about reading and writing text files.
 

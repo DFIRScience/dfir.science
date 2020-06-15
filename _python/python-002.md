@@ -7,6 +7,6 @@ header:
 
 In this video we introduce you to the basics of Python programming.
 Today we introduce basic logic through conditional statements such as
-"if-then" checking.
+"if-then" checking. Download code examples [here](https://github.com/jijames/LearnPythonProgramming).
 
 {% include video id="c8kD1cpZ81A" provider="youtube" %}

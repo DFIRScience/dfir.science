@@ -3,7 +3,7 @@ layout: single
 permalink: /research
 title: "Research"
 excerpt: "DFIRScience conducts cybercrime and digital forensic investigation research in a number of topic areas. This page is a list of our current work."
-modified: 2020-06-13T13:11:22+09:00
+modified: 2020-06-16T14:49:22+09:00
 author_profile: true
 ---
 
@@ -44,6 +44,7 @@ For an up to date list of past training sessions and talks, please see my [Linke
 * TPC Chair, 2018 [Digital Forensic Research Workshop EU 2018](http://dfrws.org/conferences/dfrws-eu-2018)
 * TPC, 2017 [9th EAI International Conference on Digital Forensics & Cyber Crime](http://d-forensics.org/2017/show/home)
 * TPC, 2017 IEEE Trustcom/BigDataSE/ICESS 2017
+* TPC Vice-Chair, Digital Forensic Research Workshop EU (DFRWS EU 2017)
 * TPC, 2017 The 12th International Conference on Availability, Reliability and Security
 * International Scientific Council, 2016 Emirates Forensic
 * Board of Referees, Digital Investigation (Since 2016) - Forensic Science International: Digital Investigation
@@ -55,11 +56,11 @@ For an up to date list of past training sessions and talks, please see my [Linke
 * TPC, Web Chair, ICDF2C 2016
 * TPC, ARES 2016
 * TPC, IEEE TrustCom 2016
-* TPC, Web Chair, ICDF2C 2016
+* TPC, Web Chair, 8th International Conference on Digital Forensics & Cyber Crime (ICDF2C 2016)
 * Steering Committee Member, ICDF2C (2014 - 2018)
 * TPC, Digital Forensic Research Workshop EU (DFRWS EU 2016)
 * General Chair, 7th International Conference on Digital Forensics & Cyber Crime (ICDF2C 2015)
-* Editorial Board, Journal of Digital Forensics, Security and Law (JDFSL) (2015 - 2018)
+* OC, Digital Forensic Research Workshop EU (DFRWS EU 2015)
 * TPC, The 8th International Workshop on Digital Forensics (WSDF 2015)
 * TPC, International Conference on Availability, Reliability and Security (ARES 2015)
 * TPC, 7th IEEE International Workshop on Information Forensics and Security (WIFS 2015)
@@ -70,8 +71,8 @@ For an up to date list of past training sessions and talks, please see my [Linke
 
 ### Academic Journal Reviewer
 
-* [Forensic Science International: Digital Investigation](https://www.journals.elsevier.com/forensic-science-international-digital-investigation)
-* [Journal of Digital Forensics, Security and Law](http://commons.erau.edu/jdfsl/)
+* Board of Referees (2018-) - [Forensic Science International: Digital Investigation](https://www.journals.elsevier.com/forensic-science-international-digital-investigation)
+* Editorial Board (2014-2018) - [Journal of Digital Forensics, Security and Law](http://commons.erau.edu/jdfsl/)
 * [Pervasive and Mobile Computing](https://www.journals.elsevier.com/pervasive-and-mobile-computing/)
 * [IEEE Security & Privacy](https://www.computer.org/security-and-privacy/)
 * [Journal of Criminal Justice](https://www.journals.elsevier.com/journal-of-criminal-justice/)

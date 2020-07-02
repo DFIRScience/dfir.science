@@ -8,6 +8,8 @@ main:
 #  url: /reading
 - title: Videos
   url: https://youtube.com/dfirscience
+- title: CTF
+  url: https://gist.github.com/jijames/b61afb5b42285e8205f6d5ddb8ab470d
 - title: Research
   url: /research
 #- title: Projects

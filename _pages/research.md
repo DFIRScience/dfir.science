@@ -69,7 +69,7 @@ For an up to date list of past training sessions and talks, please see my [Linke
 * TPC, 5th International Conference on Digital Forensics & Cyber Crime (ICDF2C 2013)
 * Web Chair, 3rd International Conference on Digital Forensics & Cyber Crime (ICDF2C 2011)
 
-### Academic Journal Reviewer
+### Academic Journal Reviews
 
 * Board of Referees (2018-) - [Forensic Science International: Digital Investigation](https://www.journals.elsevier.com/forensic-science-international-digital-investigation)
 * Editorial Board (2014-2018) - [Journal of Digital Forensics, Security and Law](http://commons.erau.edu/jdfsl/)

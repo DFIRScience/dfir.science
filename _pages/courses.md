@@ -12,6 +12,10 @@ The following are a series of free lectures on particular topics. Some may be st
 
 ## Lecture Series
 
+### Digital Forensic Science
+
+* [Introduction to Digital Forensics](/dfs101/) (series)
+
 ### Programming
 
 * [Introduction to Python Programming](/python/) (series)
@@ -19,7 +23,7 @@ The following are a series of free lectures on particular topics. Some may be st
 
 ### General Science
 
-* Introduction to research
+* Introduction to research (series, coming soon)
 
 ## Once-Off Lectures
 

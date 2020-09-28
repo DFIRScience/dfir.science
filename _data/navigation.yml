@@ -21,7 +21,7 @@ courses:
 - title: Digital Forensics
   children:
     - title: "Intro to Digital Forensics"
-    url: /DFS101/
+      url: /DFS101/
 - title: Programming
   children:
     - title: "Python"

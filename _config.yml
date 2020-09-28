@@ -81,7 +81,7 @@ og_image                 : "/assets/images/REAPERlogo.png" # Open Graph/Twitter 
 social:
   type                   : Person
   name                   : "Joshua I. James"
-  links: https://twitter.com/DFIRScience, https://youtube.com/DFIRScience, https://github.com/jijames, https://infosec.exchange/@DFIRScience
+  links: https://twitter.com/DFIRScience, https://youtube.com/DFIRScience, http://linkedin.com/in/jijames, https://github.com/jijames, https://infosec.exchange/@DFIRScience
 
 # Analytics
 analytics:
@@ -111,9 +111,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/DFIRScience"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://infosec.exchange/@DFIRScience"
+    #- label: "Mastodon"
+    #  icon: "fab fa-fw fa-mastodon"
+    #  url: "https://infosec.exchange/@DFIRScience"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jijames"
@@ -298,6 +298,17 @@ defaults:
       share: true
       sidebar:
         nav: "courses"
+  # _dfs101
+  - scope:
+      path: ""
+      type: dfs101
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      share: true
+      sidebar:
+        nav: "courses"
 
 # Collections
 collections:
@@ -305,5 +316,8 @@ collections:
     output: true
     permalink: /:collection/:path/
   golang:
+    output: true
+    permalink: /:collection/:path/
+  dfs101:
     output: true
     permalink: /:collection/:path/

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Magnet CTF Week 1 - Timestamps of doom"
-date: '2020-10-12T14:12:30+09:00'
+date: '2020-10-13T11:00:00-04:00'
 author: "Joshua I. James"
 tags:
   - infosec

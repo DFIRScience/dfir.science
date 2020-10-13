@@ -9,10 +9,16 @@ tags:
   - ctf
   - timestamps
   - android
-modified_time: ""
+modified_time: "2020-10-13T21:44:00+09:00"
 ---
 
 Magnet Forensics is running a *weekly* forensic CTF. More information can be found on their [blog](https://www.magnetforensics.com/blog/magnet-weekly-ctf-challenge/). It is a fun way to practice, so let's get to it!
+
+### CTF Posts
+
+[Week 1](https://dfir.science/2020/10/Magnet-CTF-Week-1-Timestamps-of-doom.html) | Week 2
+
+### Getting Started
 
 Download the Android data from [here](https://drive.google.com/file/d/1tVTppe4-3Hykug7NrOJrBJT4OXuNOiDO/view?usp=sharing). Note that the data was released October 5th, 2020 @ 11AM ET.
 
@@ -85,12 +91,12 @@ SolidExplorer DB shows three timestamps. That with .bash_history gives us a good
 * /sdcard/Download/hosts added at 2020-03-05 05:53:35 <-- (external.db)
 * /sdcard/Download/hosts accessed at 2020-03-05 05:53:50 <-- (explorer.db)
 * /sdcard/Download/hosts modified at 2020-03-05 05:50:18 <-- (TS + external.db)
-* Chrome - malliesae.com at 2020-03-05 05:55:35
-* Chrome - malliesae.com at 2020-03-05 05:57:02
+* Chrome - malliesae[.]com at 2020-03-05 05:55:35
+* Chrome - malliesae[.]com at 2020-03-05 05:57:02
 * Install cowsay w/ apt at 2020-03-05 13:31:42
-* Chrome - malliesae.com at 2020-03-23 23:52:54
-* Chrome - malliesae.com at 2020-03-23 23:53:03
-* Chrome - malliesae.com at 2020-03-24 01:49:17
+* Chrome - malliesae[.]com at 2020-03-23 23:52:54
+* Chrome - malliesae[.]com at 2020-03-23 23:53:03
+* Chrome - malliesae[.]com at 2020-03-24 01:49:17
 
 ### Thinking Process and Answer
 

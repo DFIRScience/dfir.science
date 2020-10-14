@@ -18,7 +18,7 @@ On Twitter, you could click on the [#MagnetWeeklyCTF](https://twitter.com/search
 
 Manually? No, thank you!
 
-To avoid manual labor, I wrote the following Python script. If you are new to Python, check out our [Python for Beginners](https://dfir.science/python/) video series.
+To avoid manual labor, I wrote the following [Python script](https://gist.github.com/jijames/733f483abd166312b14a16300400f580). If you are new to Python, check out our [Python for Beginners](https://dfir.science/python/) video series.
 
 <script src="https://gist.github.com/jijames/733f483abd166312b14a16300400f580.js"></script>
 

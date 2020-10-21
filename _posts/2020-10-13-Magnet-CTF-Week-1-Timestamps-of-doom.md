@@ -16,7 +16,7 @@ Magnet Forensics is running a *weekly* forensic CTF. More information can be fou
 
 ### CTF Posts
 
-[Week 1](https://dfir.science/2020/10/Magnet-CTF-Week-1-Timestamps-of-doom.html) | Week 2
+[Week 1](https://dfir.science/2020/10/Magnet-CTF-Week-1-Timestamps-of-doom.html) | [Week 2](https://dfir.science/2020/10/Magnet-CTF-Week-2-URLs-in-Pictures-in-Pictures.html)
 
 ### Getting Started
 

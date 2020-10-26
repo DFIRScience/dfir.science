@@ -14,7 +14,7 @@ Magnet Forensics is running a *weekly* forensic CTF. More information can be fou
 
 ### CTF Posts
 
-[Week 1](https://dfir.science/2020/10/Magnet-CTF-Week-1-Timestamps-of-doom.html) | [Week 2](https://dfir.science/2020/10/Magnet-CTF-Week-2-URLs-in-Pictures-in-Pictures.html) | Week 3
+[Week 1](https://dfir.science/2020/10/Magnet-CTF-Week-1-Timestamps-of-doom.html) | [Week 2](https://dfir.science/2020/10/Magnet-CTF-Week-2-URLs-in-Pictures-in-Pictures.html) | [Week 3](https://dfir.science/2020/10/Magnet-CTF-Week-3-Failed-connections.html)
 
 ### Getting Started
 
@@ -51,10 +51,6 @@ Get it? S Cargo Road. Snails. Air quotes. ([Escargot](https://en.wikipedia.org/w
 At that point, I realized we only have three tries this week - not looking good.
 
 Because I was rushing (again), I decided to stay on the JFK Airport track. I used Google Maps to look for the Cargo exits. One problem is that exit signs in the U.S. may be mile-markers or local exit names. In the case of JFK, it could be 269 or Exit B.
-
-<iframe src="https://www.google.com/maps/embed?pb=!4v1603197449894!6m8!1m7!1sP6AIWjQhktEoJFJpymme0Q!2m2!1d40.66109977592863!2d-73.79169204859262!3f194.16165016184493!4f0.6286816723295487!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-<iframe src="https://www.google.com/maps/embed?pb=!4v1603197489269!6m8!1m7!1sTCvUfQNf_ouDbt0ZsvBWrA!2m2!1d40.66051377268669!2d-73.79199706932935!3f194.16165016184493!4f0.6286816723295487!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 Alternatively, there is also the Van Wyck Expressway. It uses letter exits as well. On both expressways, Exit C takes you to the Cargo area. So I tried "C." **NOPE!**
 

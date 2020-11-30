@@ -101,7 +101,7 @@ I can calculate the offset since I know that PHP was installed on the 7th at 01:
 
 I'm also (initially) going to be interested in files created around that time. Modified will also be important, but I'll start with created to see what pops. Starting from Oct 6 at 01:30, we see PHP being installed with apt. Almost 60 seconds later, a systemd file was created named "cluster.service". Installing PHP does not install a cluster, so I'll mark that down as weird.
 
-![Timeline view in Autopsy](assets/images/posts/2020-Autopsy-timeline-mwctf8.jpg)
+![Timeline view in Autopsy](/assets/images/posts/2020-Autopsy-timeline-mwctf8.jpg)
 
 If we explore the timeline from 22:30 to 22:39 only a few files are created, but they are nasty. At 22:34 we have some instances of netcat (nc) being installed. 22:37 netcat is successfully created as /usr/bin/master. At 22:38 we have another cluster.service created in systemd, this time executing netcat (as master).
 

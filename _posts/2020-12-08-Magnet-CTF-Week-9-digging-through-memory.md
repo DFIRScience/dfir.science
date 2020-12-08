@@ -195,7 +195,7 @@ $ xxd executable.3180.exe | grep -A1 version
 001d3450: 2231 352e 302e 302e 3022 2f3e 0d0a 093c  "15.0.0.0"/>...<
 ```
 
-Version=15.0.0.0 but they has for the whole version number. Trying 15, and **BING!** Success.
+Version=15.0.0.0 but they ask for the whole version number. Trying 15, and **BING!** Success.
 
 > Q6: What is the virtual memory address offset where the password string is located in the memory image? Format: 0x########
 

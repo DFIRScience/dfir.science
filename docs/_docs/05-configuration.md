@@ -2,7 +2,7 @@
 title: "Configuration"
 permalink: /docs/configuration/
 excerpt: "Settings for configuring and customizing the theme."
-last_modified_at: 2019-10-04T10:54:48-04:00
+last_modified_at: 2020-08-04T11:26:21-04:00
 toc: true
 ---
 
@@ -265,6 +265,26 @@ breadcrumbs: true  # disabled by default
 
 Breadcrumb start link text and separator character can both be changed in the [UI Text data file]({{ "/docs/ui-text/" | relative_url }}).
 
+### Post dates
+
+Enable post date snippets with `show_date: true` in YAML Front Matter.
+
+![post date example]({{ "/assets/images/mm-post-date-example.png" | relative_url }})
+
+Instead of adding `show_date: true` to each post, apply as a default in `_config.yml` like so:
+
+```yaml
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+```
+
+To disable post date for a post, add `show_date: false` to its YAML Front Matter, overriding what was set in `_config.yml`.
+
 ### Reading time
 
 Enable estimated reading time snippets with `read_time: true` in YAML Front Matter. `200` has been set as the default words per minute value --- which can be changed by adjusting `words_per_minute:` in `_config.yml`.
@@ -283,12 +303,26 @@ defaults:
       read_time: true
 ```
 
-To disable reading time for a post, add `read_time: false` its YAML Front Matter to override what was set in `_config.yml`.
+To disable reading time for a post, add `read_time: false` to its YAML Front Matter to override what was set in `_config.yml`.
 
 `words_per_minute` can also be adjusted per-page basis by adding to its YAML Front Matter. This is useful for sites with multi-lingual content where you'd like specify a different value from the site config.
 
 ```yaml
 words_per_minute: 250
+```
+
+### Page meta separator
+
+To customise the separator between the page date and reading time (if both are enabled), edit `.page__meta-sep::before` in a [custom stylesheet]({{ "/docs/stylesheets/" | relative_url }}).
+
+For example,
+
+```css
+.page__meta-sep::before {
+  content: "\2022";
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
 ```
 
 ### Comments
@@ -524,6 +558,15 @@ atom_feed:
 
 **Note:** By default the site feed is linked in two locations: inside the [`<head>` element](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/head.html) and at the bottom of every page in the [site footer](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/footer.html).
 {: .notice--info}
+
+### Disable Feed Icons
+
+By default the theme links to `feed.xml` generated in the root of your site by the **jekyll-feed** plugin. To remove the RSS icon in the header and footer, update `atom_feed` in `_config.yml` like so:
+
+```yaml
+atom_feed:
+  hide: true
+```
 
 ### Site search
 

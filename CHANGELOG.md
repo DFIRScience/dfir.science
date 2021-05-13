@@ -1,3 +1,22 @@
+## Unreleased
+
+### Enhancements
+
+- Add Arabic (عربي) localized UI text strings. [#2936](https://github.com/mmistakes/minimal-mistakes/pull/2936)
+- Update onchange and uglify-js dependencies.
+- Document head and footer `custom.html` includes. [#2815](https://github.com/mmistakes/minimal-mistakes/pull/2815)
+- Color notices based on skin colors instead of fixed values. [#2887](https://github.com/mmistakes/minimal-mistakes/pull/2887)
+- Add configurable datetime format. [#2844](https://github.com/mmistakes/minimal-mistakes/pull/2844)
+- Add Baidu site verification [#2830](https://github.com/mmistakes/minimal-mistakes/pull/2830)
+- Add `alt` attribute to site logo. [#2529](https://github.com/mmistakes/minimal-mistakes/issues/2529) [#2824](https://github.com/mmistakes/minimal-mistakes/issues/2824)
+
+### Bug Fixes
+
+- Fix Jekyll environment note in configuration documentation. [#2912](https://github.com/mmistakes/minimal-mistakes/issues/2912)
+- Fix typo in Helpers documentation. [#2940](https://github.com/mmistakes/minimal-mistakes/pull/2940)
+- Remove all references to official public Staticman API instance. [#2818](https://github.com/mmistakes/minimal-mistakes/issues/2818) [#2831](https://github.com/mmistakes/minimal-mistakes/pull/2831)
+- Remove Google Search CSS. [#2852](https://github.com/mmistakes/minimal-mistakes/issues/2852) [#2855](https://github.com/mmistakes/minimal-mistakes/pull/2855)
+
 ## [4.22.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.22.0)
 
 ### Bug Fixes
@@ -18,7 +37,9 @@
 - Update remote theme documentation. [#2734](https://github.com/mmistakes/minimal-mistakes/pull/2734)
 - Update allejo/jekyll-toc to v1.1.0, skip headings without an ID. [#2752](https://github.com/mmistakes/minimal-mistakes/pull/2752)
 - Allow custom gradient for page header overlay. [#2806](https://github.com/mmistakes/minimal-mistakes/pull/2806)
+
 ## [4.21.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.21.0)
+
 ### Bug Fixes
 
 - Fix greedy navigation by improving reliability of remaining space for visible links. [#2664](https://github.com/mmistakes/minimal-mistakes/issues/2664)

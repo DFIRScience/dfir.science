@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -82,7 +82,7 @@ og_image                 : "/assets/images/REAPERlogo.png" # Open Graph/Twitter 
 social:
   type                   : Person
   name                   : "Joshua I. James"
-  links: https://twitter.com/DFIRScience, https://youtube.com/DFIRScience, http://linkedin.com/in/jijames, https://github.com/jijames, https://infosec.exchange/@DFIRScience
+  links: https://twitter.com/DFIRScience, https://youtube.com/DFIRScience, https://github.com/jijames
 
 # Analytics
 analytics:
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Joshua I. James"
   avatar           : "/assets/images/REAPERlogo.png"
-  bio              : "Digital Investigation Researcher"
+  bio              : "Digital Forensic Researcher"
   location         :
   email            : "joshua+2021@dfirscience.org"
   links:

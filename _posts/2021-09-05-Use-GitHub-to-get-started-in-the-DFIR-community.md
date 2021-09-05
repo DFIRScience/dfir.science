@@ -8,7 +8,7 @@ tags:
   - infosec
   - community
 header:
-  overlay_image: /assets/images/posts/headers/github-codetree.jpg
+  image: /assets/images/posts/headers/github-codetree.jpg
   caption: "Photo by [Yancy Min](https://unsplash.com/@yancymin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/github?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 modified_time: ""
 ---

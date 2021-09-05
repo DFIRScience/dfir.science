@@ -23,7 +23,7 @@ name                     : "Joshua I. James"
 description              : "Tutorials and research about digital forensic science and information security."
 url                      : "https://DFIR.Science"
 baseurl                  : "/"
-repository               : "jijames/dfir.science"
+repository               : "dfirscience/dfir.science"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/REAPERlogoMini.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title

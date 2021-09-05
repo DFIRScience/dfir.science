@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Digital Forensic Science"
+title                    : "DFIR Science"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Joshua I. James"
-description              : "Tutorials and research about digital forensic science and information security."
+description              : "Tutorials and research about digital forensic and incident response science."
 url                      : "https://DFIR.Science"
 baseurl                  : "/"
 repository               : "dfirscience/dfir.science"

@@ -105,7 +105,7 @@ author:
   avatar           : "/assets/images/REAPERlogo.png"
   bio              : "Digital Forensic Researcher"
   location         :
-  email            : "joshua+2021@dfirscience.org"
+  email            : "https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -124,13 +124,13 @@ author:
     #  url: "https://infosec.exchange/@DFIRScience"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jijames"
+      url: "https://github.com/DFIRScience"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      #url: "https://www.facebook.com/DFIR.Science"
+      url: "https://www.facebook.com/DFIRScience"
 
 # Site Footer
 footer:
@@ -143,7 +143,7 @@ footer:
       url: "https://youtube.com/DFIRScience"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      #url: "https://www.facebook.com/DFIR.Science"
+      url: "https://www.facebook.com/DFIRScience"
 
 
 # Reading Files

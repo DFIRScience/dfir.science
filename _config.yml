@@ -105,11 +105,11 @@ author:
   avatar           : "/assets/images/REAPERlogo.png"
   bio              : "Digital Forensic Researcher"
   location         :
-  email            : "https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8"
+  email            : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:joshua+2020@dfirscience.org
+      url: https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8
     - label: "Website"
       icon: "fas fa-fw fa-link"
       #url: "https://dfir.science"

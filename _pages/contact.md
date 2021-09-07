@@ -11,7 +11,7 @@ author_profile: true
 
 Thank you for your interest in DFIR.Science. This site started in 2008 (originally as CybercrimeTech) as a place to document opensource software for digital forensic investigations. Since then, we have evolved into creating [tutorials](https://youtube.com/dfirscience) to answer questions from practicing digital forensic investigators.
 
-Feel free to [email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8) and we will answer any questions as soon as possible. We are usually active on [Twitter](https://twitter.com/dfirscience).
+[Email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8){:target="_blank"} and we will answer any questions as soon as possible. We are usually active on [Twitter](https://twitter.com/dfirscience).
 
 ## Goals
 
@@ -27,15 +27,15 @@ This site is mainly the work of [Joshua I. James](https://www.linkedin.com/in/ji
 
 ### Collaborate
 
-If you would like to contribute or collaborate [email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8) with "COLLABORATE" in the subject.
+If you would like to contribute or collaborate [email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8){:target="_blank"} with "COLLABORATE" in the subject.
 
 ### Consulting
 
-For questions about consulting or running a training course, please [email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8) and put "CONSULTING" in the subject.
+For questions about consulting or running a training course, please [email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8){:target="_blank"} and put "CONSULTING" in the subject.
 
 ### DFIR Students
 
-If you are an undergrad/graduate student working on a paper, thesis or dissertation and would like help on topics and structure, please [email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8) and put "THESIS REVIEW" in the subject.
+If you are an undergrad/graduate student working on a paper, thesis or dissertation and would like help on topics and structure, please [email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8){:target="_blank"} and put "THESIS REVIEW" in the subject.
 
 ## Support Us
 
@@ -76,7 +76,7 @@ If you are looking to join the DFIR.Science community, please see our [Patreon](
     <strong>Address:</strong> 0xc946Ea4d18B18CEC50Ac7A11bEeaCCCa42040686
 </details>
 <br>
-If you are interested in donating a cryptocurrency that is not listed, [email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8) for address information.
+If you are interested in donating a cryptocurrency that is not listed, [email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8){:target="_blank"} for address information.
 
 ## Revenue Disclosure
 

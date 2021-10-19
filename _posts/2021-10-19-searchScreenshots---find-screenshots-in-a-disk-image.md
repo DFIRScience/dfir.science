@@ -2,7 +2,6 @@
 layout: single
 title: "searchScreenshots - find screenshots in a disk image"
 date: '2021-10-19T10:35:56-05:00'
-author: "Joshua I. James"
 tags:
   - infosec
   - dfir
@@ -16,7 +15,7 @@ but we can make it better! There were a few features that I wish were added. The
 * easier management of screenshot resolutions
 * Output detected images and a report into a single directory (and specify the location)
 
-The Tsurugi team is not currently accepting applications for new developers, but - luck for us - they release everything under opensource
+The Tsurugi team is not currently accepting applications for new developers, but - lucky for us - they release everything under opensource
 licenses. searchScreenshots has a MIT license, which means we can edit it as we want, yea!
 
 We created a GitHub repository so others can contribute (and they did. Thank you so much!). Layed out a basic development plan, and BAM.

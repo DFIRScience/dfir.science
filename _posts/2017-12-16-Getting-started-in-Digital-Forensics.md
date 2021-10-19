@@ -2,7 +2,7 @@
 layout: single
 title: "Getting started in Digital Forensics"
 date: '2017-12-16T12:50:17+09:00'
-author: Joshua
+
 tags:
 - infosec
 - dfir

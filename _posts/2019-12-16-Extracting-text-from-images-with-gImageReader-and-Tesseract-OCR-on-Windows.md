@@ -2,7 +2,7 @@
 layout: single
 title: "Extracting text from images with gImageReader and Tesseract OCR on Windows"
 date: '2019-12-16T20:56:57+09:00'
-author: "Joshua I. James"
+
 tags:
   - OCR
   - dfir

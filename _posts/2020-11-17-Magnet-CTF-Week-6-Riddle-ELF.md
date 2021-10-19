@@ -2,7 +2,7 @@
 layout: single
 title: "Magnet CTF Week 6 - Riddle ELFs"
 date: '2020-11-17T13:00:00+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

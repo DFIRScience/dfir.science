@@ -2,7 +2,7 @@
 layout: single
 title: "HFS+ Header trivia"
 date: '2020-10-16T23:36:15+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

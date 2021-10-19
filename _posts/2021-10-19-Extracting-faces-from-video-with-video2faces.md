@@ -2,7 +2,6 @@
 layout: single
 title: "Automatically extract faces from video - Tsurugi Linux - video2faces"
 date: '2021-10-19T10:24:00-05:00'
-author: "Joshua I. James"
 tags:
   - tools
 header:

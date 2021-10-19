@@ -2,7 +2,7 @@
 layout: single
 title: "Using video2ocr / Tesseract-OCR to extract text from video"
 date: '2021-10-12T09:00:00-05:00'
-author: "Joshua I. James"
+
 tags:
   - tools
 header:

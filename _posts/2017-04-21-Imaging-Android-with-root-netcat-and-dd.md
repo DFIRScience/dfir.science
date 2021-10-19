@@ -2,7 +2,7 @@
 layout: single
 title: "Imaging Android with ADB, Root, Netcat and DD"
 date: '2017-04-21T19:54:44+09:00'
-author: Joshua
+
 tags:
 - infosec
 - dfir

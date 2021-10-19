@@ -2,7 +2,7 @@
 layout: single
 title: "How to enable SSH on a headless Rasberry Pi - Raspbian"
 date: '2018-05-25T09:10:18+09:00'
-author: Joshua
+
 tags:
 - infosec
 - dfir

@@ -2,7 +2,7 @@
 layout: single
 title: "Magnet CTF Week 5 - HDFS around the block"
 date: '2020-11-10T13:00:00+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

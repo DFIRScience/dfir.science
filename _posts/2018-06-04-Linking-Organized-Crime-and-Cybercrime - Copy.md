@@ -2,7 +2,7 @@
 layout: single
 title: "Linking Organized Crime and Cybercrime"
 date: '2018-06-04T19:45:06+09:00'
-author: Joshua
+
 tags:
 - infosec
 - dfir

@@ -2,7 +2,7 @@
 layout: single
 title: "Learn Python Programming"
 date: '2020-06-09T23:24:36+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

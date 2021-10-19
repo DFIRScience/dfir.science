@@ -2,7 +2,7 @@
 layout: single
 title: "Detecting manual clock modifications"
 date: '2020-09-28T22:05:37+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

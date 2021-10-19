@@ -2,7 +2,7 @@
 layout: single
 title: "Slimbook Pro X Review"
 date: '2020-02-25T09:18:55+09:00'
-author: "Joshua I. James"
+
 tags:
   - review
   - Linux

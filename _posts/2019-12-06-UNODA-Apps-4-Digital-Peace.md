@@ -2,7 +2,7 @@
 layout: single
 title: "UNODA and Cybersecurity Tech Accord Apps 4 Digital Peace Contest"
 date: '2019-12-06T19:57:32+09:00'
-author: "Joshua I. James"
+
 tags:
   - contest
   - cybersecurity

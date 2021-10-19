@@ -2,7 +2,7 @@
 layout: single
 title: "Magnet CTF Week 7 - Hadoop Node Networking"
 date: '2020-11-24T01:00:00+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

@@ -2,7 +2,7 @@
 layout: single
 title: "Magnet CTF Week 4 - GUIDSWAP and drop"
 date: '2020-11-03T13:00:00+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

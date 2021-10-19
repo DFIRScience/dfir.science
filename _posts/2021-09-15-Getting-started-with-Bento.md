@@ -2,7 +2,7 @@
 layout: single
 title: "Getting Started with Bento Digital Forensics Toolkit"
 date: '2021-09-15T17:00:00-05:00'
-author: "Joshua I. James"
+
 tags:
   - dfir
   - infosec

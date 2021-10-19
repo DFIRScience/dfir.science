@@ -2,7 +2,7 @@
 layout: single
 title: "Magnet CTF Week 3 - The case of the spoiled S. Cargo"
 date: '2020-10-27T00:00:00+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

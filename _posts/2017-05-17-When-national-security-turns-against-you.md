@@ -2,7 +2,7 @@
 layout: single
 title: "When National Security Turns Against You"
 date: '2017-05-17T14:51:09+09:00'
-author: Joshua
+
 tags:
 - Public security
 - National Security

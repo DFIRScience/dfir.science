@@ -2,7 +2,7 @@
 layout: single
 title: "Creating a telegram bot to assist with research automation"
 date: '2019-08-14T17:12:26+09:00'
-author: "Joshua I. James"
+
 tags:
   - automation
   - research

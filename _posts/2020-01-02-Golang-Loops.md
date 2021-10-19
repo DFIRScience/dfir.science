@@ -2,7 +2,7 @@
 layout: single
 title: "Go Programming 004: Golang Loops"
 date: '2020-01-02T19:38:19+09:00'
-author: "Joshua I. James"
+
 tags:
   - programming
   - golang

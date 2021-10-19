@@ -2,7 +2,7 @@
 layout: single
 title: "CFP UNODC E4J Conference Access to Justice to End Violence"
 date: '2020-02-28T12:32:13+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

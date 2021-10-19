@@ -2,7 +2,7 @@
 layout: single
 title: "Hypothesis based problem solving with Bash and Imagemagick"
 date: '2019-12-23T20:23:57+09:00'
-author: "Joshua I. James"
+
 tags:
   - programming
   - imagemagick

@@ -2,7 +2,7 @@
 layout: single
 title: "Find and sort files by extension in the Linux command line"
 date: '2021-10-13T09:00:00-05:00'
-author: "Joshua I. James"
+
 tags:
   - Linux
 modified_time: ""

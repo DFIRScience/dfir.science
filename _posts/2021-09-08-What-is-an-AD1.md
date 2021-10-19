@@ -2,7 +2,7 @@
 layout: single
 title: "What is an AD1?"
 date: '2021-09-08T17:00:00-05:00'
-author: "Joshua I. James"
+
 tags:
   - dfir
   - infosec

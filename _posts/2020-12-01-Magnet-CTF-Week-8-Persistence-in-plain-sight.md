@@ -2,7 +2,7 @@
 layout: single
 title: "Magnet CTF Week 8 - Persistence in plain sight"
 date: '2020-12-01T01:00:00+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

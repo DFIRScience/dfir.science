@@ -2,7 +2,7 @@
 layout: single
 title: "Downloading and adding NSRL hash sets to Autopsy"
 date: '2020-11-24T22:22:04+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

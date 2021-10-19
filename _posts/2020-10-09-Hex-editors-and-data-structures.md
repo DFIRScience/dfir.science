@@ -2,7 +2,7 @@
 layout: single
 title: "Hex editors and data structures"
 date: '2020-10-09T21:07:27+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

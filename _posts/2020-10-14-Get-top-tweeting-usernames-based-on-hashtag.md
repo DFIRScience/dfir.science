@@ -2,7 +2,7 @@
 layout: single
 title: "Get top tweeting usernames based on hashtag"
 date: '2020-10-14T18:10:35+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

@@ -2,7 +2,7 @@
 layout: single
 title: "Go Programming 001 - How to install Golang"
 date: '2019-12-19T20:55:57+09:00'
-author: "Joshua I. James"
+
 tags:
   - programming
   - golang

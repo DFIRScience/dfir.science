@@ -2,7 +2,7 @@
 layout: single
 title: "Amazon AWS EC2 Forensic Memory Acquisition - LiME"
 date: '2021-09-21T08:00:00-05:00'
-author: "Joshua I. James"
+
 tags:
   - digital forensics
   - incident response

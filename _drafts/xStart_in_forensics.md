@@ -2,7 +2,7 @@
 layout: single
 title: "msft new technique to stop online child grooming"
 date: '2020-01-11T11:55:58+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

@@ -2,7 +2,7 @@
 layout: single
 title: "Magnet CTF Week 9 - Digging through memory"
 date: '2020-12-08T01:00:00+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

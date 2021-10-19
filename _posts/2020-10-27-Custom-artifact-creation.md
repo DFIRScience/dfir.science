@@ -2,7 +2,7 @@
 layout: single
 title: "Custom artifact creation"
 date: '2020-10-27T21:19:30+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

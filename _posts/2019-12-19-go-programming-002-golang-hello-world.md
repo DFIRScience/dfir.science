@@ -2,7 +2,7 @@
 layout: single
 title: "Go Programming 002 - a simple program in Golang - hello world!"
 date: '2019-12-19T21:00:57+09:00'
-author: "Joshua I. James"
+
 tags:
   - programming
   - golang

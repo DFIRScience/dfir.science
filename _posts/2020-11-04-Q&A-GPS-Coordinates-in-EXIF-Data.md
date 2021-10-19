@@ -2,7 +2,7 @@
 layout: single
 title: "Q&A: GPS Coordinates in EXIF Data"
 date: '2020-10-29T22:16:37+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

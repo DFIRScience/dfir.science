@@ -2,7 +2,7 @@
 layout: single
 title: "Using your computer to fight COVID-19"
 date: '2020-03-28T08:01:45+09:00'
-author: "Joshua I. James"
+
 tags:
   - security
   - computing

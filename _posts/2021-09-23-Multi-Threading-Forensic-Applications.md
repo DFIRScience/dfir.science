@@ -2,7 +2,7 @@
 layout: single
 title: "Mutli-Threading Forensic Applications"
 date: '2021-09-23T09:00:00-05:00'
-author: "Joshua I. James"
+
 tags:
   - tools
 header:

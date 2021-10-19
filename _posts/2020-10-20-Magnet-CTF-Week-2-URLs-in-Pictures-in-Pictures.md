@@ -2,7 +2,7 @@
 layout: single
 title: "Magnet CTF Week 2 - URLs in Pictures in Pictures"
 date: '2020-10-20T00:00:00+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

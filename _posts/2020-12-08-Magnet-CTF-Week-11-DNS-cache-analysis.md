@@ -2,7 +2,7 @@
 layout: single
 title: "Magnet CTF Week 11 - DNS Cache Analysis... sort of"
 date: '2020-12-22T01:00:00+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

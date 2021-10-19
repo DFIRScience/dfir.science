@@ -2,7 +2,7 @@
 layout: single
 title: "Password Cracking Test Data"
 date: '2017-08-15T08:27:16+09:00'
-author: Joshua
+
 tags:
 - infosec
 - dfir

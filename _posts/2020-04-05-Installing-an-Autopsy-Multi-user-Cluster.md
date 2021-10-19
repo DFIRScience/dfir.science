@@ -2,7 +2,7 @@
 layout: single
 title: "Notes on Installing an Autopsy Multi-user Cluster"
 date: '2020-04-05T09:56:03+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

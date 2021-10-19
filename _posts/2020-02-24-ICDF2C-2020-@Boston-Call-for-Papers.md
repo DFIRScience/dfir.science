@@ -2,7 +2,7 @@
 layout: single
 title: "ICDF2C 2020 @Boston Call for Papers"
 date: '2020-02-24T10:39:08+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

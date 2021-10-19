@@ -2,7 +2,7 @@
 layout: single
 title: "Magnet CTF Week 12 - Registry update analysis"
 date: '2020-12-29T01:00:00+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

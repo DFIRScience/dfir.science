@@ -2,7 +2,7 @@
 layout: single
 title: "Use GitHub to get started in the DFIR community"
 date: '2021-09-05T17:40:48-05:00'
-author: "Joshua I. James"
+
 tags:
   - dfir
   - infosec

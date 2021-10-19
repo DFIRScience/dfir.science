@@ -2,7 +2,7 @@
 layout: single
 title: "Go Programming 003: Setting variables in Go"
 date: '2019-12-26T16:48:32+09:00'
-author: "Joshua I. James"
+
 tags:
   - programming
   - golang

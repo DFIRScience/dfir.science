@@ -2,7 +2,7 @@
 layout: single
 title: "General overview of investigation process"
 date: '2020-03-25T14:41:32+09:00'
-author: "Joshua I. James"
+
 tags:
   - infosec
   - dfir

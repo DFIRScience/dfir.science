@@ -23,7 +23,7 @@ The community added new features and made the overall code much more efficient. 
 [https://github.com/DFIRScience/searchScreenshots](https://github.com/DFIRScience/searchScreenshots)
 
 Next, we let the Tsurugi team known that an updated version exists, and it will probably be included in the future! It's an easy way to
-contribute, and might help investigators for years to come. Awesome.
+contribute, and might help investigators for years to come. Awesome!
 
 Check out the live stream below.
 

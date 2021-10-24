@@ -9,7 +9,7 @@ author_profile: true
 
 {% include toc %}
 
-Thank you for your interest in DFIR.Science. This site started in 2008 (originally as CybercrimeTech) as a place to document opensource software for digital forensic investigations. Since then, we have evolved into creating [tutorials](https://youtube.com/dfirscience) to answer questions from practicing digital forensic investigators.
+Thank you for your interest in DFIRScience. This site started in 2008 (originally as CybercrimeTech) as a place to document open source software for digital forensic investigations. Since then, we have evolved into creating [tutorials](https://youtube.com/dfirscience) to answer questions from practicing digital forensic investigators.
 
 [Email us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8){:target="_blank"} and we will answer any questions as soon as possible. We are usually active on [Twitter](https://twitter.com/dfirscience).
 
@@ -21,7 +21,7 @@ Our ultimate goal is for the revenue generated from this site to support us work
 
 ## Whoami
 
-This site is mainly the work of [Joshua I. James](https://www.linkedin.com/in/jijames/). He is a trainer, professor, and consultant for digital investigations. He received his Ph.D. in Computer Science at [UCD](http://www.ucd.ie/) with a focus on AI in digital investigations. He currently runs DFIR.Science in his free time. If you would like to see more DFIR content, please [support us](#support).
+This site is mainly the work of [Joshua I. James](https://www.linkedin.com/in/jijames/). He is a trainer, lecturer, and consultant for digital investigations. He received his Ph.D. in Computer Science at [UCD](http://www.ucd.ie/) with a focus on AI in digital investigations. He currently runs DFIR.Science in his free time. If you would like to see more DFIR content, please [support us](#support).
 
 * PGP: [0x4069870abb742ef8](http://pgp.mit.edu/pks/lookup?op=get&search=0x4069870ABB742EF8) | [Download](/assets/publickey.joshua@dfirscience.org-2990418eae704c0b159934e84069870abb742ef8.asc)
 
@@ -41,7 +41,7 @@ If you are an undergrad/graduate student working on a paper, thesis or dissertat
 
 <a name="support"></a>
 
-If you are looking to join the DFIR.Science community, please see our [Patreon](https://patreon.com/dfirscience) page. Supporters get priority answers, extra content, and can even book a face-to-face chat/skype session to discuss any topic you need. With enough community support, we will help build digital forensic laboratories for countries in need.
+If you are looking to join the DFIRScience community, please see our [Patreon](https://patreon.com/dfirscience) page. Supporters get priority answers, extra content, and can even book a face-to-face chat/skype session to discuss any topic you need. With enough community support, we will help build digital forensic laboratories for countries in need.
 
 ### Other ways to support
 
@@ -80,9 +80,13 @@ If you are interested in donating a cryptocurrency that is not listed, [email us
 
 ## Revenue Disclosure
 
-This site is not funded by any specific organization. If any content is sponsored, we will make the sponsorship clear on the post or this page. Our goal is to remove general advertising on all content eventually. Currently, revenue is generated from the following sources:
+This site is not funded by any specific organization. If any content is sponsored, we will make the sponsorship clear on the post or this page. Our goal is to be 100% supported by the community and remove ads from all content. Currently, revenue is generated from the following sources:
 
-* [Brave Rewards](https://brave.com/dfi747)
-* [Youtube ads](https://youtube.com/dfirscience)
+* [Brave Rewards](https://brave.com/dfi747) - if you view this website using Brave browser, we may recieve BAT. You can also send us a tip by clicking the triangle in the address bar, and selecting "Send Tip". THank you!
+* [Youtube ads](https://youtube.com/dfirscience) - we currently use Google Adsense on YouTube. This shows ads to viewers while watching videos.
 
 In the future, we hope to move to the community-sponsorship model on [Patreon](https://patreon.com/dfirscience) to remove ads from our content.
+
+## Cookies
+
+We do not use cookies to track users directly on DFIR.Science. However, a number of third-party applications are often included that might. These include embedded videos from YouTube, embeded code from GitHub, and applications like Mailchimp, Cloudflare, and Twitter.

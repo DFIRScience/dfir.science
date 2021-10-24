@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" #"default" # "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DFIR Science"
+title                    : "DFIRScience"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Joshua I. James"
@@ -103,50 +103,59 @@ analytics:
 author:
   name             : "Joshua I. James"
   avatar           : "/assets/images/REAPERlogo.png"
-  bio              : "Digital Forensic Researcher"
+  bio              : "Digital Forensic Scientist"
   location         :
   email            :
   links:
     - label: "Newsletter"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "http://eepurl.com/hG9inj"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      #url: "https://dfir.science"
     - label: "Youtube"
-      icon: "fab fa-yt fa-youtube-square"
-      url: "https://youtube.com/DFIRScience"
+      icon: "fab fa-yt fa-youtube"
+      url: "https://www.youtube.com/DFIRScience?sub_confirmation=1"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/DFIRScience"
-    #- label: "Mastodon"
-    #  icon: "fab fa-fw fa-mastodon"
-    #  url: "https://infosec.exchange/@DFIRScience"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DFIRScience"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/DFIRScience"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/dfirscience"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://reddit.com/u/dfirscience"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8
+    - label: "Support"
+      icon: "fab fa-patreon"
+      url: https://www.patreon.com/dfirscience
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/DFIRScience"
     - label: "Youtube"
-      icon: "fab fa-yt fa-youtube-square"
-      url: "https://youtube.com/DFIRScience"
+      icon: "fab fa-yt fa-youtube"
+      url: "https://www.youtube.com/DFIRScience?sub_confirmation=1"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/DFIRScience"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/dfirscience"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://reddit.com/u/dfirscience"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://infosec.exchange/@DFIRScience"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/DFIRScience"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/DFIRScience"
 
 
 # Reading Files

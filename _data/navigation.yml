@@ -1,21 +1,19 @@
 # main links
 main:
-- title: Support
-  url: https://www.patreon.com/bePatron?u=16239620
 - title: Learn
   url: /courses
 #- title: Reading
 #  url: /reading
-- title: Videos
+- title: Tutorials
   url: https://youtube.com/dfirscience
-#- title: CTF
-#  url: https://gist.github.com/jijames/b61afb5b42285e8205f6d5ddb8ab470d
 - title: Research
   url: /research
 #- title: Projects
 #  url: /Projects/
 - title: Contact
   url: /contact
+- title: Swag
+  url: https://swag.dfir.science
 
 courses:
 - title: Digital Forensics

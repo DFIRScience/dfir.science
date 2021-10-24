@@ -1,6 +1,6 @@
 # main links
 main:
-- title: Learn
+- title: Courses
   url: /courses
 #- title: Reading
 #  url: /reading
@@ -12,7 +12,7 @@ main:
 #  url: /Projects/
 - title: Contact
   url: /contact
-- title: Swag
+- title: Shop
   url: https://swag.dfir.science
 
 courses:

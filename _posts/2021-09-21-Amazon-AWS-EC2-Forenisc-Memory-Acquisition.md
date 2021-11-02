@@ -9,7 +9,7 @@ tags:
   - infosec
   - tools
 header:
-  image: /assets/images/posts/headers/GenericCode.png
+  image: /assets/images/posts/headers/GenericCode.jpg
   caption: "Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/amazon-web-services?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 modified_time: ""
 ---

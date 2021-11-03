@@ -9,10 +9,14 @@ tags:
 header:
   image: /assets/images/posts/headers/GenericCode.jpg
   caption: "Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/amazon-web-services?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
-modified_time: ""
+modified_time: "2021-11-03T09:39:15-05:00"
 ---
 
 Welcome everyone to the November DFIR Dev competition!
+
+Competition updates will be posted here. Also [follow us](https://twitter.com/dfirscience) for announcements.
+
+Last updated: **2021-11-03**
 
 This month we have prizes sponsored by [DFIRScience](https://dfir.science), [Cyber5W](https://www.cyber5w.com/) and [Stark4N6](https://www.stark4n6.com/).
 
@@ -52,14 +56,15 @@ To allow the judges to test your modules, you must provide test data. This data 
 
 ## Deliverables
 
-1. A code contribution to ALEAPP, iLEAPP, or WLEAPP submitted as a pull request to the DFIRScience repository.
-2. Test data and instructions for a minimum working example included as a link in the pull request.
-3. Documentation (blog post, text file, video) about the design and usage of your submission included as a link in the pull request.
+1. Your name or handel, social media, student or professional info as a comment in the pull request.
+2. A code contribution to ALEAPP, iLEAPP, or WLEAPP submitted as a pull request to the [DFIRScience GitHub repository](https://github.com/DFIRScience).
+3. data and instructions for a minimum working example included as a link in the pull request.
+4. Documentation (blog post, text file, video) about the design and usage of your submission included as a link in the pull request.
 
 # Q&A
 
 * Who can participate in the competition?
-  * Anyone except judges and XLEAPP core developers (that wouldn't be fair!)
+  * Anyone except judges and ?LEAPP core developers (that wouldn't be fair!)
 * Do you have to be in the U.S. to participate?
   * No. Anyone from any country can participate.
 * What will you do with the code after the competition?

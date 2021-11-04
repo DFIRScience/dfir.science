@@ -72,6 +72,10 @@ To allow the judges to test your modules, you must provide test data. This data 
 * How can we receive cash prizes?
   * We will arrange the best payment methods with the winners.
 
+# How to get started
+
+{% include video id="NmtHYmNM068" provider="youtube" %}
+
 # Sponsors
 
 [Cyber 5W](http://www.cyber5w.com/) is a team of digital forensics specialists who have collaborated and designed an online training academy where students can select practical, interactive, skill-based digital forensic courses that are accessible and affordable. We are also available for consulting, speaking engagements, and on-site training. Our mission is to share our knowledge and expertise, teaching the skills, tools and best-practices needed to investigate cyber crime, bring criminals to justice, and make the world a safer place.

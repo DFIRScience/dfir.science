@@ -40,7 +40,7 @@ The goal of the competition is to contribute code to ALEAPP, iLEAPP, or WLEAPP. 
 
 # Submissions
 
-Code entries will be submitted via Github pull request. You **must** make the pull request to the DFIRScience repositories here: [ALEAPP](https://github.com/DFIRScience/ALEAPP), [iLEAPP](https://github.com/DFIRScience/iLEAPP), [WLEAPP](https://github.com/DFIRScience/ALEAPP). Submissions to the abrignoni repository will *not* be accepted as competition submissions. *All submitted code will be merged with abrignoni repositories after the competition.*
+Code entries will be submitted via Github pull request. You **must** make the pull request to the DFIRScience repositories here: [ALEAPP](https://github.com/DFIRScience/ALEAPP), [iLEAPP](https://github.com/DFIRScience/iLEAPP), [WLEAPP](https://github.com/DFIRScience/WLEAPP). Submissions to the abrignoni repository will *not* be accepted as competition submissions. *All submitted code will be merged with abrignoni repositories after the competition.*
 
 Instructions on how to clone the DFIRScience repository, make code changes, and submit a pull request will be released soon.
 

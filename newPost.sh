@@ -13,6 +13,7 @@ POST="_posts/$FILENAME"
 echo "---" > $POST
 echo "layout: single" >> $POST
 echo "title: \"${1}\"" >> $POST
+echo "permalink: /:year/:month/:title" >> $POST
 echo "date: '$DATETIME'" >> $POST
 #echo "author: \"Joshua I. James\"" >> $POST
 echo "tags:" >> $POST

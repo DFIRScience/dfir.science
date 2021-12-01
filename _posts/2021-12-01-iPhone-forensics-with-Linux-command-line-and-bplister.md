@@ -20,11 +20,11 @@ If you are doing a forensic investigation of any Apple device, you will probably
 {% include video id="Fx_rKzMe8dQ" provider="youtube" %}
 
 Links:
-* bplister: (https://github.com/threeplanetssoftware/bplister)
+* bplister: (https://github.com/threeplanetssoftware/bplister)[https://github.com/threeplanetssoftware/bplister]
 
 Marsha's iPhone Image:
-* [https://d17k3c8pvtyk2s.cloudfront.net/CTF21/CTF21_Marsha_iPhoneX_FFS_Premium_2021_07_29.zip.001]
-* https://d17k3c8pvtyk2s.cloudfront.net/CTF21/CTF21_Marsha_iPhoneX_FFS_Premium_2021_07_29.zip.002
-* https://d17k3c8pvtyk2s.cloudfront.net/CTF21/CTF21_Marsha_iPhoneX_FFS_Premium_2021_07_29.zip.003
+* [https://d17k3c8pvtyk2s.cloudfront.net/CTF21/CTF21_Marsha_iPhoneX_FFS_Premium_2021_07_29.zip.001](https://d17k3c8pvtyk2s.cloudfront.net/CTF21/CTF21_Marsha_iPhoneX_FFS_Premium_2021_07_29.zip.001)
+* [https://d17k3c8pvtyk2s.cloudfront.net/CTF21/CTF21_Marsha_iPhoneX_FFS_Premium_2021_07_29.zip.002](https://d17k3c8pvtyk2s.cloudfront.net/CTF21/CTF21_Marsha_iPhoneX_FFS_Premium_2021_07_29.zip.002)
+* [https://d17k3c8pvtyk2s.cloudfront.net/CTF21/CTF21_Marsha_iPhoneX_FFS_Premium_2021_07_29.zip.003](https://d17k3c8pvtyk2s.cloudfront.net/CTF21/CTF21_Marsha_iPhoneX_FFS_Premium_2021_07_29.zip.003)
 
 Password: 02DB2ECE91DB67E8FA939FC3DC15D16B

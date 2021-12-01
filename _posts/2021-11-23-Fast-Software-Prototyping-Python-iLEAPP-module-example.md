@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Fast Software Prototyping in Python - iLEAPP module example"
+permalink: /:year/:month/:title
 date: '2021-11-23T08:10:06-06:00'
 tags:
   - infosec

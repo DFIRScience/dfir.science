@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "iPhone forensics with Linux command line and bplister"
+permalink: /:year/:month/:title
 date: '2021-12-01T09:24:57-06:00'
 tags:
   - infosec

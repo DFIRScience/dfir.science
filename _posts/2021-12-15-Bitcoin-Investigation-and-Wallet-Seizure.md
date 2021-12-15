@@ -25,4 +25,4 @@ A local wallet, however, is controlled only by the wallet owner. The wallet has 
 
 This video covers several cryptocurrency topics and tries to show how each topic is related. We then discuss cryptocurrency investigation from a digital forensic perspective. Seizing cryptocurrency addresses and wallets is possible. Ideally, an investigator would have access to an unencrypted wallet, which would provide all necessary information to seize all Bitcoin. Usually, however, an investigator will find an encrypted wallet and should consider live data forensics techniques, especially RAM acquisitions, as well as standard search and interrogation techniques.
 
-{% include video id=d2kMmNyNo00 provider=youtube %}
+{% include video id="d2kMmNyNo00" provider="youtube" %}

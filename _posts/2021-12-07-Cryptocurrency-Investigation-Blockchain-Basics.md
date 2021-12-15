@@ -18,4 +18,4 @@ modified_time: ""
 
 Before you start with cryptocurrency investigations take a moment to understand the basics of blockchain. Each system will have its own specific features, but the underlying function of most ledger systems is the same. Most investigations focus on blockchain transactions. We introduce some basic concepts that will help when getting into more advanced cryptocurrency investigations.
 
-{% include video id=rz9s2k-VHz0 provider=youtube %}
+{% include video id="rz9s2k-VHz0" provider="youtube" %}

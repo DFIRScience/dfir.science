@@ -25,7 +25,7 @@ echo "  caption: \"Photo by [Gabriel Heinzer](https://unsplash.com/@6heinz3r?utm
 echo "modified_time: \"\"" >> $POST
 echo "---" >> $POST
 echo " " >> $POST
-echo "{% include video id="XXX" provider="youtube" %}" >> $POST
+echo "{% include video id=\"XXX\" provider=\"youtube\" %}" >> $POST
 
 code . $POST &
 fi

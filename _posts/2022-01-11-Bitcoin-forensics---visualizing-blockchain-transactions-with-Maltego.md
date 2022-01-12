@@ -22,4 +22,4 @@ We use Maltego Community Edition with the blockchain.com transform to analyze Wa
 
 Getting started with Bitcoin forensics Maltego and the blockchain transform is an easy and free way to begin. Maltego can also include intelligence from many other sources, not just the Bitcoin blockchain. You can use investigation intelligence to enrich your graphs and find suspects' true identities behind the addresses.
 
-{% include video id=_kTRx-_heCg provider=youtube %}
+{% include video id="_kTRx-_heCg" provider="youtube" %}

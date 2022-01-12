@@ -28,7 +28,7 @@ theme: minimal-mistakes-jekyll
 Easily change the color scheme of the theme using one of the provided "skins":
 
 ```yaml
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 ```
 
 **Note:** If you have made edits to the theme's CSS files be sure to update [`/assets/css/main.scss`](https://github.com/mmistakes/minimal-mistakes/blob/master/assets/css/main.scss) to include `@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin` before the `minimal-mistakes` import.
@@ -423,6 +423,7 @@ comments:
   utterances:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
+    label: "comment" # Optional - must be existing label.
 ```
 
 #### giscus comments
@@ -710,7 +711,7 @@ Formerly known as [Google Webmaster Tools](https://www.google.com/webmasters/too
 
 #### Bing Webmaster Tools
 
-There are several ways to [verify site ownership](https://www.bing.com/webmaster/help/how-to-verify-ownership-of-your-site-afcfefc6) --- the easiest adding an authentication code to your config file.
+There are several ways to [verify site ownership](https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b) --- the easiest adding an authentication code to your config file.
 
 Copy and paste the string inside of `content`:
 
@@ -807,12 +808,12 @@ facebook:
   username: "michaelrose"  # https://www.facebook.com/michaelrose
 ```
 
-**ProTip:** To debug Open Graph data use [this tool](https://developers.facebook.com/tools/debug/og/object?q=https%3A%2F%2Fmademistakes.com) to test your pages. If content changes aren't reflected you will probably have to hit the **Fetch new scrape information** button to refresh.
+**ProTip:** To debug Open Graph data use [this tool](https://developers.facebook.com/tools/debug/) to test your pages. If content changes aren't reflected you will probably have to hit the **Scrape Again** button to refresh.
 {: .notice--info}
 
 ##### Open Graph default image
 
-For pages that don't have a `header.image` assigned in their YAML Front Matter, `site.og_image` will be used as a fallback. Use your logo, icon, avatar or something else that is meaningful. Just make sure it is place in the `/assets/images/` folder, a minimum size of 120px by 120px, and less than 1MB in file size.
+For pages that don't have a `header.image` assigned in their YAML Front Matter, `site.og_image` will be used as a fallback. Use your logo, icon, avatar or something else that is meaningful. Just make sure it is placed in the `/assets/images/` folder, has a minimum size of 120px by 120px, and is less than 1MB in file size.
 
 ```yaml
 og_image: /assets/images/site-logo.png

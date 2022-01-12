@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Bitcoin forensics - visualizing blockchain transactions with Maltego"
+title: "Bitcoin forensics: visualizing blockchain transactions with Maltego"
 permalink: /:year/:month/:title
 date: '202-12-20T09:37:07-06:00'
 tags:

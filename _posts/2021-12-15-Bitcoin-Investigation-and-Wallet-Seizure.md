@@ -5,7 +5,7 @@ permalink: /:year/:month/:title
 date: '2021-12-15T09:49:28-06:00'
 tags:
   - dfir
-  - forensics
+  - investigation
   - blockchain
   - cryptocurrency
 header:

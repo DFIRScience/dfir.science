@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Joshua I. James"
-  avatar           : "/assets/images/REAPERlogo.png"
+  avatar           : #"/assets/images/REAPERlogo.png"
   bio              : "Digital Forensic Scientist"
   location         :
   email            :

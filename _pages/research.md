@@ -82,7 +82,7 @@ For an up to date list of past training sessions and talks, please see my [Linke
 
 ## Publications
 
-* James, J.I., 2013. Automated Human Inference in Digital Forensic Investigations Using Hypothesis Reduction (Doctoral dissertation, University College Dublin). ([PDF](/assets/research/20130603 - Joshua James - PhD Dissertation - UCD - Automated Human Inference in Digital Forensic Investigations using Hypothesis Reduction.pdf)
+* James, J.I., 2013. Automated Human Inference in Digital Forensic Investigations Using Hypothesis Reduction (Doctoral dissertation, University College Dublin). ([PDF](/assets/research/20130603 - Joshua James - PhD Dissertation - UCD - Automated Human Inference in Digital Forensic Investigations using Hypothesis Reduction.pdf))
 
 Updates on [Google Scholar](https://scholar.google.com/citations?user=qDls2CDoIsoC). For full-text articles see my [ResearchGate profile](https://www.researchgate.net/profile/Joshua_I_James).
 

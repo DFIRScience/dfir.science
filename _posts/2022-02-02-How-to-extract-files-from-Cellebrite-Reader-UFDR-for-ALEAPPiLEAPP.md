@@ -14,17 +14,17 @@ modified_time: ""
  
 Sometimes you are presented with odd file types from forensic tools. These odd file types are often related to forensic disk images or other containers.
 
-One such odd file type is a Cellebrite Reader file (UFDR). Today let's look at how to extract data from a Cellebrite Rader udfr and analyze it with ALEAPP or iLEAPP.
+One such odd file type is a Cellebrite Reader file (UFDR). Today let's look at how to extract data from a Cellebrite Rader ufdr and analyze it with ALEAPP or iLEAPP.
 
-Note Cellebrite also has UDF and UDFX file types. Cellebrite UFD files are text files that contain acquisition meta-data. Cellebrite [UFDX](https://cellebrite.com/en/learn-more-about-ufd-vs-ufdx-extraction-outputs/) are multiple extractions merged into one case. UFD does not contain file data, only information about the extraction.
+Note Cellebrite also has UFD and UFDX file types. Cellebrite UFD files are text files that contain acquisition meta-data. Cellebrite [UFDX](https://cellebrite.com/en/learn-more-about-ufd-vs-ufdx-extraction-outputs/) are multiple extractions merged into one case. UFD does not contain file data, only information about the extraction.
 
 ## Test Data
 
-UDFR file is from Cellerbite Reader - [Josh Hickman Android 12 image](https://thebinaryhick.blog/2021/12/17/android-12-image-now-available/). [Here](https://www.mediafire.com/file/4s19ubpptbukd6b/Android_12_Cellebrite_Reader.zip/file) is the specific file I am using.
+UFDR file is from Cellerbite Reader - [Josh Hickman Android 12 image](https://thebinaryhick.blog/2021/12/17/android-12-image-now-available/). [Here](https://www.mediafire.com/file/4s19ubpptbukd6b/Android_12_Cellebrite_Reader.zip/file) is the specific file I am using.
 
 ## Initial Analysis
 
-UDFR file type:
+UFDR file type:
 
 ```
 file Android_12_Cellebrite_Reader.ufdr 
@@ -60,7 +60,7 @@ If we open the archive, we can see a file structure:
 
 We already have a problem - ufdr does not preserve full paths of files in the suspect system. The folder structure above is pre-categorized. ALEAPP/iLEAPP uses both file paths and files names to load specific parsers. *Some* parsers will work, but most will not.
 
-## Using udfr with ALEAPP
+## Using ufdr with ALEAPP
 
 Change the file extension from *Android_12_Cellebrite_Reader.ufdr* to *Android_12_Cellebrite_Reader.zip*. Update ALEAPP to 2.0.05. Run the ALEAPP GUI. Select our zip file. Select the output location.
 

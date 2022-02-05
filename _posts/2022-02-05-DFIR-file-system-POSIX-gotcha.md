@@ -12,12 +12,12 @@ header:
 modified_time: ""
 ---
  
-I was working on the converter [UFDR2DIR](https://github.com/DFIRScience/UFDR2DIR), and ran into some weird bugs.
-I develop on Linux, and had no trouble reconstructing paths from Android and iOS device dumps. But Windows users
-had errors with full paths more than the difference between "/" and "\".
+I worked on the converter [UFDR2DIR](https://github.com/DFIRScience/UFDR2DIR) and ran into some weird bugs.
+I coded on Linux and had no trouble reconstructing Android and iOS device dumps paths. But Windows users
+had errors with full paths more than the difference between "/" and "\\".
 
 From [StackOverflow](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names)
-there are quite a few file path illegal characters. Let's focus on ":".
+there are quite a few file path illegal characters. Let's focus on ":"
 
 In Linux, we have a file ```valid:file.txt```. It works as expected.
 
@@ -69,23 +69,23 @@ $cu ...
    t.PowerShell.Commands.NewObjectCommand
 ```
 
-When extracting the archive in Windows, we get an error message then a directory and file is created but the file name is ```valid_file.txt```.
+When extracting the archive in Windows, we get an error message, then a directory and file are created, but the file name is ```valid_file.txt```.
 
-I checked [ALEAPP and iLEAPP](https://github.com/abrignoni/iLEAPP/blob/master/scripts/ilap_artifacts.py) to see if any illegal characters where included in artifact patterns. I didn't see any, but is this because contributors extracted test data directories in Windows first? If so, then direct parsing of an original archive, or extractions on other operating systems, may fail. Not saying it is happening, but it is something for developers to keep in mind.
+I checked [ALEAPP and iLEAPP](https://github.com/abrignoni/iLEAPP/blob/master/scripts/ilap_artifacts.py) to see if any illegal characters were included in artifact patterns. I didn't see any, but is this because contributors extracted test data directories in Windows first? If so, then direct parsing of an original archive, or extractions on other operating systems, may fail. Not saying it is happening, but it is something for developers to keep in mind.
 
-## Conclusions
+## Things to consider
 
-If you use Linux/MacOS then you're probably fine with extracting mobile device dumps to the local FS. The theoretical challenge is that parsers may have been written with Windows illegal character substituions in mind, meaning that data that exists in it's original path format may be missed during processing.
+If you use Linux/MacOS, you're probably fine extracting mobile device dumps to the local FS. The theoretical challenge is that parsers may have been written with Windows illegal character substituions in mind, meaning that data that exists in it's original path format may be missed during processing.
 
-If you use Windows, you have the worst of both worlds. A dump of a POSIX-compliant path structure might automatically rename, fail, or fail silently. In the case of auto-rename, it might not be easy to find that a rename happened. If the parsers were developed on a POSIX-compliant system, they may fail to match Windows-renamed files and paths. Maybe time to switch to [Tsurugi Linux](https://tsurugi-linux.org/)?
+If you use Windows, you have the worst of both worlds. A dump of a POSIX-compliant path structure might automatically rename, fail, or fail silently. In the case of auto-rename, it might not be easy to find that a rename happened. If the parsers were developed on a POSIX-compliant system, they might fail to match Windows-renamed files and paths.
 
-* There is no consistency in how illegal path characters are handled. This means different programs many result in different file names, and some programs may *fail silently* when encountering these issues.
-  * This could mean that data in an archive/dump is not extracted during an analysis with no indication given to the investigator.
-* Path naming has an affect on many DFIR tools that use path matching. If the development environment is Windows, illegal characters may have already been stripped or converted. Patterns that include this conversion may not match on other OS/versions.
-  * Don't explicitly include Windows illegal characters in a match... use a general match at position to support all replacements.
+Maybe it's time to switch to [Tsurugi Linux](https://tsurugi-linux.org/)?
 
-It would be interesting to see how Windows forenisc tools deal with illegal path characters when extracting from an image. That's probably something that needs to be documented somewhere...
+* There is no consistency in how illegal path characters are handled. This means different programs may result in different file names, and some programs may *fail silently* when encountering these issues.
+  * This could mean that data in an archive/dump is not extracted during analysis with no indication given to the investigator.
+* Path naming affects many DFIR tools that use path matching. If the development environment is Windows, illegal characters may have already been stripped or converted. Patterns that include this conversion may not match on other OS/versions.
+  * Don't explicitly include Windows illegal characters in a match... use a general match at the position to support all replacements.
 
-If you're reading data directly out of an original archive or image, then unsupported chars in Windows don't seem to matter. It's only for extractions. This means that if you are using tools like ALEAPP and iLEAPP on Windows, feed it an acquisition archive instead of extracting to a directory.
+It would be interesting to see how Windows forensic tools deal with illegal path characters when extracting from an image. That's probably something that needs to be documented somewhere...
 
-
+Suppose you're reading data directly out of an original archive or image. In that case, unsupported path chars in Windows don't seem to matter. It's only for extractions saved to disk. This means that if you are using tools like ALEAPP and iLEAPP on Windows, feed it an acquisition archive instead of extracting it to a directory.

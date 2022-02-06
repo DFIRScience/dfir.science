@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "DFIR file-system POSIX gotcha - process from archives directly"
+title: "DFIR filesystem POSIX gotcha - process from archives directly"
 permalink: /:year/:month/:title
 date: '2022-02-05T13:17:06-06:00'
 tags:

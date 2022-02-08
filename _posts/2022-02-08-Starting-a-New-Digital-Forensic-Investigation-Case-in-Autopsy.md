@@ -7,8 +7,8 @@ tags:
   - infosec
   - dfir
 header:
-  image: /assets/images/posts/headers/linuxCLI.jpg
-  caption: "Photo by [Gabriel Heinzer](https://unsplash.com/@6heinz3r?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/fast?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+  image: /assets/images/posts/headers/autopsy.jpg
+  caption: "Logo by Basis Technology and [Autopsy](https://www.autopsy.com/)"
 modified_time: ""
 ---
  

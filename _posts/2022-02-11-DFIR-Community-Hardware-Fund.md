@@ -4,7 +4,6 @@ title: "DFIR Community Hardware Fund"
 permalink: /:year/:month/:title
 date: '2022-02-11T14:12:32-06:00'
 tags:
-  - infosec
   - dfir
   - community
 header:

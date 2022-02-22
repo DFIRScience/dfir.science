@@ -20,6 +20,77 @@ Memory analysis - with the help of volatility 3 - is becoming easier. It is an e
 
 {% include video id="Uk3DEgY5Ue8" provider="youtube" %}
 
+### Volatility 3 Commands
+
+Running Volatility 3 in Windows PowerShell.
+
+Check version.
+
+```python vol.py -v```
+
+Get image information.
+
+```python vol.py -f  [ImageName] windows.info```
+
+See process list.
+
+```python vol.py -f  [ImageName] windows.pslist | more```
+
+Filter process list searching for keyword "chrome"
+
+```python vol.py -f  [ImageName] windows.pslist | Select-String chrome```
+
+Find all handles oepn by process 1328.
+
+```python vol.py -f  [ImageName]windows.handles --pid 1328```
+
+Find file handles and filter by type.
+
+```powershell
+python vol.py -f  [ImageName] windows.handles --pid 1328 | Select-String File | more
+python vol.py -f  [ImageName] windows.handles --pid 1328 | Select-String File | Select-String history | more
+```
+
+Dump a file from process 1328 at virtual address.
+
+```python vol.py -f  [ImageName] -o "dump" windows.dumpfile --pid 1328  --virtaddr 0xbf0f6abe9740```
+
+Dump all files associated with PID 2520.
+
+```python vol.py -f  [ImageName]windows.dumpfiles.DumpFiles --pid 2520```
+
+See executed programs with command option history.
+
+```python vol.py -f  [ImageName] windows.cmdline.CmdLine```
+
+See active network connections and listening programs.
+
+```python vol.py -f  [ImageName] windows.netstat```
+
+Dump the Windows user password hashes.
+
+```python vol.py -f  [ImageName] windows.hashdump.Hashdump```
+
+Print out the Windows Registry UserAssist.
+
+```python vol.py -f  [ImageName] windows.registry.userassist.UserAssist```
+
+List all available Windows Registry hives in memory.
+
+```python vol.py -f  [ImageName] windows.registay.hivelist.HiveList```
+
+Dump the ntuser hive based on a keyword filter.
+
+```python vol.py -f  [ImageName] -o "dump" windows.registry.hivelist --filter Doe\ntuser.dat --dump```
+
+Print a specific Windows Registry key.
+
+```python vol.py -f  [ImageName] windows.registry.printkey --key "Software\Microsoft\Windows\CurrentVersion" --recurse```
+
+Print a specific Windows Registry key, subkeys and values.
+
+```python vol.py -f  [ImageName] windows.registry.printkey --key "Software\Microsoft\Windows\CurrentVersion" --recurse```
+
 ### Links
 
 * [Pyhon](https://python.org) (get version 3)

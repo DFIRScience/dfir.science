@@ -1,6 +1,10 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
 <div class="masthead">
+  <div id="circuit" style="position: relative;">
+    <img src="/assets/images/logos/dfir_circuits_corner.png" style="position: absolute; top: 0px; left: 0px; max-height: 3rem;">
+    <img src="/assets/images/logos/dfir_circuits_corner.png" style="position: absolute; top: 0px; right: 0px; max-height: 3rem; transform: scaleX(-1);">
+  </div>
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
@@ -12,7 +16,7 @@
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <ul class="visible-links">
-          <a href="https://www.patreon.com/bePatron?u=16239620" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+          <a href="https://www.patreon.com/bePatron?u=16239620" data-patreon-widget-type="become-patron-button"><img src="/assets/images/becomepatron.png" style="max-height: 75%;"></a>
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>

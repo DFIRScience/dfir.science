@@ -173,12 +173,14 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: $pprader;
   font-size: $type-size-5;
 }
 
 .author__bio {
   margin: 0;
+  font-family: $monospace !important;
+  font-size: $type-size-5;
 
   @include breakpoint($large) {
     margin-top: 10px;

@@ -8,19 +8,31 @@
 
 $doc-font-size: 16 !default;
 
+@font-face {
+   font-family: "PP Rader";
+   src: url('/assets/fonts/PPRader-Regular.woff2') format('woff2');
+   font-weight: normal;
+   font-display: swap;
+   font-style: normal;
+}
+
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
+/*$serif: Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;*/
+$serif: Georgia, Times, serif !default;
+$sans-serif: Inter !default;
+$monospace: "Roboto Mono", Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
 $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$pprader: "Roboto Mono" !default;
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
@@ -30,7 +42,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$header-font-family: $pprader !default;
 $caption-font-family: $serif !default;
 
 /* type scale */

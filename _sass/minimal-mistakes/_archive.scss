@@ -34,18 +34,18 @@
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
-    margin-top: 0.5em;
+    margin-top: 0.4em;
   }
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  margin-bottom: 0.20em;
+  font-family: $pprader;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -64,6 +64,10 @@
   }
 }
 
+.archive__item-title a {
+  text-decoration: none;
+}
+
 /* remove border*/
 .page__content {
   .archive__item-title {
@@ -74,7 +78,8 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-family: $sans-serif;
+  font-size: $type-size-5;
 
   & + p {
     text-indent: 0;
@@ -211,7 +216,8 @@
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: $type-size-5;
+    font-size: $type-size-4;
+    color: #D8D82A;
   }
 
   .archive__item-excerpt {

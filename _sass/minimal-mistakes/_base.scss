@@ -21,7 +21,13 @@ body {
   }
 }
 
-h1,
+h1 {
+  margin: 2em 0 0.5em;
+  line-height: 1.2;
+  font-family: $pprader;
+  font-weight: bold;
+}
+
 h2,
 h3,
 h4,

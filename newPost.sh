@@ -8,7 +8,7 @@ DATE=$(date --iso)
 DATETIME=$(date --iso=seconds)
 TITLE=$(echo "$1" | sed 's/ /-/g')
 FILENAME="$DATE-${TITLE}.md"
-POST="_posts/$FILENAME"
+POST="_drafts/$FILENAME"
 
 echo "---" > $POST
 echo "layout: single" >> $POST

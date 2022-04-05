@@ -37,3 +37,4 @@ As for the new logos, we are still experimenting with when and where to use them
 Overall, we hope it makes it easier for investigators to find and engage with digital forensic research and tutorials. Our look might be changing, but the mission is - and always has been - to help investigate crime.
 
 
+<time datetime="2022-04-01T02:42:56-05:00"></time>

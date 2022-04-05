@@ -21,8 +21,8 @@ echo "  - infosec" >> $POST
 echo "  - dfir" >> $POST
 echo "header:" >> $POST
 echo "  og_image: /ssets/images/logos/dfir_logo_vert_fullcolor.png" >> $POST
-echo "  image: /assets/images/posts/headers/linuxCLI.jpg" >> $POST
-echo "  caption: \"Photo by [Gabriel Heinzer](https://unsplash.com/@6heinz3r?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/fast?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)\"" >> $POST
+echo "  image: /assets/images/posts/headers/dfirscicover.png" >> $POST
+echo "  caption: \"Photo by [DFIRScience](https://dfir.science)\"" >> $POST
 echo "modified_time: \"\"" >> $POST
 echo "---" >> $POST
 echo " " >> $POST

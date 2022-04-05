@@ -7,7 +7,7 @@ tags:
   - infosec
   - dfir
 header:
-  og_card: /ssets/images/logos/dfir_logo_vert_fullcolor.png
+  og_image: /ssets/images/logos/dfir_logo_vert_fullcolor.png
   image: /assets/images/posts/headers/dfirscicover.png
   caption: ""
 modified_time: ""

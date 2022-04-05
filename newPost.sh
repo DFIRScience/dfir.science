@@ -22,7 +22,7 @@ echo "  - dfir" >> $POST
 echo "header:" >> $POST
 echo "  og_image: \"/assets/images/logos/dfir_card.png\"" >> $POST
 echo "  image: "\/assets/images/posts/headers/dfirscicover.png\"" >> $POST
-echo "  caption: \"Photo by [DFIRScience](https://dfir.science)\"" >> $POST
+echo "  caption:" >> $POST
 echo "modified_time:" >> $POST
 echo "<time datetime=\"$DATETIME\"></time>"
 echo "---" >> $POST

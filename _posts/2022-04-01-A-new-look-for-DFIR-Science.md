@@ -8,7 +8,7 @@ tags:
 header:
   og_image: "/assets/images/logos/dfir_card.png"
   image: "/assets/images/posts/headers/dfirscicover.png"
-  caption: "[DFIRScience](https://dfir.science)"
+  caption: ""
 modified_time:
 ---
 

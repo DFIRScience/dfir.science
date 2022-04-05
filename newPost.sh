@@ -20,7 +20,7 @@ echo "tags:" >> $POST
 echo "  - infosec" >> $POST
 echo "  - dfir" >> $POST
 echo "header:" >> $POST
-echo "  og_image: \"/ssets/images/logos/dfir_logo_vert_fullcolor.png\"" >> $POST
+echo "  og_image: \"/assets/images/logos/dfir_card.png\"" >> $POST
 echo "  image: "\/assets/images/posts/headers/dfirscicover.png\"" >> $POST
 echo "  caption: \"Photo by [DFIRScience](https://dfir.science)\"" >> $POST
 echo "modified_time:" >> $POST

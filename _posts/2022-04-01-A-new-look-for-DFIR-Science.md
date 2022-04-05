@@ -6,7 +6,7 @@ date: "2022-04-01T02:42:56-05:00"
 tags:
   - dfirscience
 header:
-  og_image: "/assets/images/logos/dfir_logo_vert_fullcolor.png"
+  og_image: "/assets/images/logos/dfir_card.png"
   image: "/assets/images/posts/headers/dfirscicover.png"
   caption: "[DFIRScience](https://dfir.science)"
 modified_time:

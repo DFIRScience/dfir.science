@@ -2,15 +2,14 @@
 layout: single
 title: "A new look for DFIR Science"
 permalink: /:year/:month/:title
-date: '2022-04-01T02:42:56-05:00'
+date: "2022-04-01T02:42:56-05:00"
 tags:
-  - infosec
-  - dfir
+  - dfirscience
 header:
-  og_image: /ssets/images/logos/dfir_logo_vert_fullcolor.png
-  image: /assets/images/posts/headers/dfirscicover.png
-  caption: ""
-modified_time: ""
+  og_image: "/assets/images/logos/dfir_logo_vert_fullcolor.png"
+  image: "/assets/images/posts/headers/dfirscicover.png"
+  caption: "[DFIRScience](https://dfir.science)"
+modified_time:
 ---
 
 Back in 2008, DFIR Science started as a research blog. It was mostly technical documentation to set up things like [OCFA](http://ocfa.sourceforge.net/) and [Debian Live](https://www.debian.org/CD/live/). It was always about sharing information with the community.

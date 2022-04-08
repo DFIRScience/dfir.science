@@ -20,7 +20,7 @@ title                    : "DFIRScience"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Joshua I. James"
-description              : "Tutorials and research about digital forensic and incident response science."
+description              : "Tutorials and research about the science and practice of digital forensics and incident response."
 url                      : "https://DFIR.Science"
 baseurl                  : "/"
 repository               : "dfirscience/dfir.science"

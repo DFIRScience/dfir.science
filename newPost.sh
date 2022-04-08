@@ -21,10 +21,9 @@ echo "  - infosec" >> $POST
 echo "  - dfir" >> $POST
 echo "header:" >> $POST
 echo "  og_image: \"/assets/images/logos/dfir_card.png\"" >> $POST
-echo "  image: "\/assets/images/posts/headers/dfirscicover.png\"" >> $POST
+echo "  image: \"/assets/images/posts/headers/dfirscicover.png\"" >> $POST
 echo "  caption:" >> $POST
 echo "modified_time:" >> $POST
-echo "<time datetime=\"$DATETIME\"></time>"
 echo "---" >> $POST
 echo " " >> $POST
 echo "{% include video id=\"XXX\" provider=\"youtube\" %}" >> $POST

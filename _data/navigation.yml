@@ -1,7 +1,9 @@
 # main links
 main:
+- title: Consulting
+  url: "/consulting"
 - title: Courses
-  url: /courses
+  url: "https://learn.dfir.science"
 #- title: Reading
 #  url: /reading
 - title: Tutorials
@@ -12,8 +14,8 @@ main:
 #  url: /Projects/
 - title: Contact
   url: /contact
-- title: Shop
-  url: https://swag.dfir.science
+#- title: Shop
+#  url: https://swag.dfir.science
 
 courses:
 - title: Digital Forensics

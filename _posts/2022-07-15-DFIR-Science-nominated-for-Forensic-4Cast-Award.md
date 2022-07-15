@@ -95,7 +95,7 @@ We are competing in the same category with the excellent [13Cubed](https://www.1
   * DFIR Diva
 
 * DFIR Resource of the Year
-  * [Digital Forensics Discord](https://discordapp.com/invite/JUqe9Ek) | [Guide](https://aboutdfir.com/a-beginners-guide-to-the-digital-forensics-discord-server/) if you've never used Discord before
+  * [Digital Forensics Discord](https://discordapp.com/invite/JUqe9Ek) - [Guide](https://aboutdfir.com/a-beginners-guide-to-the-digital-forensics-discord-server/) if you've never used Discord before
   * [This Week in 4n6](https://thisweekin4n6.com/)
   * [DFIR Training](https://dfir.training)
 

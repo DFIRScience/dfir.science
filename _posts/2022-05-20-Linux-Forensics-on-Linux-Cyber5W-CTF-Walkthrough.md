@@ -10,7 +10,7 @@ tags:
   - infosec
 header:
   og_image: "/assets/images/logos/dfir_card.png"
-  image: "/assets/images/posts/headers/c5wlfctf.png"
+  image: "/assets/images/posts/headers/c5wlfctf.webp"
   caption:
 modified_time:
 ---

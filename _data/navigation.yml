@@ -6,8 +6,8 @@ main:
   url: "https://learn.dfir.science"
 #- title: Reading
 #  url: /reading
-- title: Tutorials
-  url: https://youtube.com/dfirscience
+#- title: Tutorials
+#  url: https://youtube.com/dfirscience
 - title: Research
   url: /research
 #- title: Projects

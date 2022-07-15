@@ -17,8 +17,8 @@ echo "permalink: /:year/:month/:title" >> $POST
 echo "date: \"$DATETIME\"" >> $POST
 #echo "author: \"Joshua I. James\"" >> $POST
 echo "tags:" >> $POST
-echo "  - infosec" >> $POST
 echo "  - dfir" >> $POST
+echo "  - infosec" >> $POST
 echo "header:" >> $POST
 echo "  og_image: \"/assets/images/logos/dfir_card.png\"" >> $POST
 echo "  image: \"/assets/images/posts/headers/dfirscicover.png\"" >> $POST

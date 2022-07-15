@@ -6,10 +6,12 @@ date: '2022-02-22T09:31:40-06:00'
 tags:
   - infosec
   - dfir
+  - RAM
+  - volatility
 header:
   image: /assets/images/posts/headers/volatility3.jpg
   caption: "Volatility logo by the [Volatility Foundation](https://www.volatilityfoundation.org/)"
-modified_time: ""
+modified_time: "2022-07-15T14:09:40-06:00"
 ---
 
 Volatility is a very powerful memory forensics tool. It is used to extract information from memory images (memory dumps) of Windows, macOS, and Linux systems. There is also a *huge* community writing third-party plugins for volatility. You definitely want to include memory acquisition and analysis in your investigations, and volatility should be in your forensic toolkit.
@@ -30,66 +32,66 @@ Check version.
 
 Get image information.
 
-```python vol.py -f  [ImageName] windows.info```
+```python vol.py -f [ImageName] windows.info```
 
 See process list.
 
-```python vol.py -f  [ImageName] windows.pslist | more```
+```python vol.py -f [ImageName] windows.pslist | more```
 
 Filter process list searching for keyword "chrome"
 
-```python vol.py -f  [ImageName] windows.pslist | Select-String chrome```
+```python vol.py -f [ImageName] windows.pslist | Select-String chrome```
 
-Find all handles oepn by process 1328.
+Find all handles open by process 1328.
 
-```python vol.py -f  [ImageName]windows.handles --pid 1328```
+```python vol.py -f [ImageName] windows.handles --pid 1328```
 
 Find file handles and filter by type.
 
 ```powershell
-python vol.py -f  [ImageName] windows.handles --pid 1328 | Select-String File | more
-python vol.py -f  [ImageName] windows.handles --pid 1328 | Select-String File | Select-String history | more
+python vol.py -f [ImageName] windows.handles --pid 1328 | Select-String File | more
+python vol.py -f [ImageName] windows.handles --pid 1328 | Select-String File | Select-String history | more
 ```
 
 Dump a file from process 1328 at virtual address.
 
-```python vol.py -f  [ImageName] -o "dump" windows.dumpfile --pid 1328  --virtaddr 0xbf0f6abe9740```
+```python vol.py -f [ImageName] -o "dump" windows.dumpfile --pid 1328  --virtaddr 0xbf0f6abe9740```
 
 Dump all files associated with PID 2520.
 
-```python vol.py -f  [ImageName]windows.dumpfiles.DumpFiles --pid 2520```
+```python vol.py -f [ImageName] windows.dumpfiles.DumpFiles --pid 2520```
 
 See executed programs with command option history.
 
-```python vol.py -f  [ImageName] windows.cmdline.CmdLine```
+```python vol.py -f [ImageName] windows.cmdline.CmdLine```
 
 See active network connections and listening programs.
 
-```python vol.py -f  [ImageName] windows.netstat```
+```python vol.py -f [ImageName] windows.netstat```
 
 Dump the Windows user password hashes.
 
-```python vol.py -f  [ImageName] windows.hashdump.Hashdump```
+```python vol.py -f [ImageName] windows.hashdump.Hashdump```
 
 Print out the Windows Registry UserAssist.
 
-```python vol.py -f  [ImageName] windows.registry.userassist.UserAssist```
+```python vol.py -f [ImageName] windows.registry.userassist.UserAssist```
 
 List all available Windows Registry hives in memory.
 
-```python vol.py -f  [ImageName] windows.registay.hivelist.HiveList```
+```python vol.py -f [ImageName] windows.registay.hivelist.HiveList```
 
-Dump the ntuser hive based on a keyword filter.
+Dump the ntuser hive based on a keyword filter to the "dump" folder.
 
-```python vol.py -f  [ImageName] -o "dump" windows.registry.hivelist --filter Doe\ntuser.dat --dump```
+```python vol.py -f [ImageName] -o "dump" windows.registry.hivelist --filter Doe\ntuser.dat --dump```
 
 Print a specific Windows Registry key.
 
-```python vol.py -f  [ImageName] windows.registry.printkey --key "Software\Microsoft\Windows\CurrentVersion" --recurse```
+```python vol.py -f [ImageName] windows.registry.printkey --key "Software\Microsoft\Windows\CurrentVersion" --recurse```
 
 Print a specific Windows Registry key, subkeys and values.
 
-```python vol.py -f  [ImageName] windows.registry.printkey --key "Software\Microsoft\Windows\CurrentVersion" --recurse```
+```python vol.py -f [ImageName] windows.registry.printkey --key "Software\Microsoft\Windows\CurrentVersion" --recurse```
 
 ### Links
 

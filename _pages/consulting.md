@@ -3,12 +3,14 @@ layout: single
 permalink: /consulting
 title: "Consulting"
 excerpt: "Digital forensic consulting services by DFIR Science, LLC"
-modified: 2022-07-15T09:26:22-05:00
+modified: 2022-07-24T16:35:22-05:00
 classes: wide
 author_profile: true
 ---
 
 DFIR Science, LLC provides digital forensic and information security consulting services worldwide. [Contact us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8) with your project description. We can quote hourly, project-based, and by retainer.
+
+We offer **custom training services** related to digital forensic investigation and information security. If you or your organization need customized in-person or online training, please [contact us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8).
 
 Get rewarded for referrals! [Contact us](https://us5.list-manage.com/contact-form?u=3664f5bc2c4350bc7454f233d&form_id=42749486e45c8394701634ff776be7b8) for details about our referral program.
 

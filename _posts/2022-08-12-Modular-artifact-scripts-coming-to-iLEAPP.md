@@ -6,6 +6,8 @@ date: "2022-08-12T16:58:28-05:00"
 tags:
   - dfir
   - infosec
+  - ileapp
+  - aleapp
 header:
   og_image: "/assets/images/logos/dfir_card.png"
   image: "/assets/images/posts/headers/GenericCode.jpg"

@@ -9,7 +9,7 @@ tags:
 header:
   og_image: "/assets/images/posts/headers/RAMTutorial.webp"
   image: "/assets/images/posts/headers/colorRoom03.webp"
-  caption:
+  caption: "Photo by [Efe Kurnaz](https://unsplash.com/@efekurnaz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/random-access-memory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 modified_time:
 ---
  

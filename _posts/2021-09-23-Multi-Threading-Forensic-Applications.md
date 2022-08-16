@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Mutli-Threading Forensic Applications"
+title: "Multi-Threading Forensic Applications"
 date: '2021-09-23T09:00:00-05:00'
 
 tags:

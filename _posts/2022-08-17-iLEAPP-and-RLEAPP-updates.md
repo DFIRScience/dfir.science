@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "iLEAPP and RLEAPP updates"
+title: "iLEAPP and RLEAPP updates and dev thoughts"
 permalink: /:year/:month/:title
 date: "2022-08-17T16:11:22-05:00"
 tags:
